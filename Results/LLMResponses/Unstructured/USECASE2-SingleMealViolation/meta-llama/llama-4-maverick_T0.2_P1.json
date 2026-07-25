@@ -1,0 +1,7 @@
+{
+    "decision": "rejected",
+    "number-violations": 1,
+    "reasoning": "The decision to reject the request was based on the fact that the patient has been diagnosed with a condition that requires a strict diet.",
+    "patient-explanation": "The patient has been diagnosed with a condition that requires a strict diet.",
+    "physician-explanation": "The patient's condition requires a strict diet to manage the condition effectively. The physician has recommended a diet that is low in fat and sugar to help manage the patient's condition."
+}

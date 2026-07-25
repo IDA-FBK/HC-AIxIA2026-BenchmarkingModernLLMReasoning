@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "During your breakfast on 31 March 2025 you ate 15 g (or 15 units) of butter (FOOD‑1900). Your monitoring rule says that for each meal you should consume **less than 10 units** of this food. Because 15 > 10, the rule was broken, so a violation was recorded.",
+    "physician-explanation": "A monitoring rule (Rule‑0002) was defined for Patient2 with the following parameters: monitored entity = fsfood:FOOD‑1900 (Butter), entity type = Food, operator = \"Less\", threshold value = 10, timing = Meal. At the temporal checkpoint (2025‑03‑31T09:14:32), the patient’s Breakfast‑P2‑1 record shows a ConsumedFood instance linked to FOOD‑1900 with fsreci:amountFood = 15. Since the observed amount (15) does not satisfy the condition amount < 10, the rule is violated. Consequently, one violation instance should be generated, linked to the patient, the rule (ID 0002), the Breakfast‑P2‑1 meal, with start/end timestamps equal to the consumption time, and the observed quantity (15) versus the expected maximum (10).",
+    "reasoning": "The rule applies to each meal (timing = fstemp:Meal). The only meal recorded within the week start (2025‑03‑31T00:00:00) is Breakfast‑P2‑1 at 09:14:32. The consumed amount of the monitored food (FOOD‑1900) is 15, which exceeds the allowed maximum of 10 for the \"Less\" operator. Therefore the condition is violated, yielding exactly one violation."
+}

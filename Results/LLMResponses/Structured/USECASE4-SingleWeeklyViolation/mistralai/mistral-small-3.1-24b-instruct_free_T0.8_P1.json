@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The user consumed a total of 60 units of FOOD-1900 over the week, which exceeds the allowed limit of 50 units per week.",
+    "patient-explanation": "Based on the monitoring rule for Food item 1900, you are allowed to consume up to 50 units of this food per week. However, for the week starting April 14, 2025, and ending April 20, 2025, you consumed a total of 60 units. Here is the breakdown of your consumption: 5 units on April 14, 8 units on April 15, 5 units on April 16, 10 units on April 17, 7 units on April 18, 15 units on April 19, and 10 units on April 20. This exceeds the allowed limit by 10 units. You have two violations for this rule. ",
+    "physician-explanation": "The monitoring rule for Food item 1900 specifies a maximum consumption of 50 units per week. The patient, however, consumed a total of 60 units between April 14, 2025, and April 20, 2025. The breakdown of consumption is as follows: 5 units on April 14, 8 units on April 15, 5 units on April 16, 10 units on April 17, 7 units on April 18, 15 units on April 19, and 10 units on April 20. This consumption exceeds the allowed limit by 10 units, resulting in two violations of the monitoring rule.  "
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "Rule-0005 monitors FOOD-1900 (Butter) with a weekly limit of less than 50 units. The patient consumed Butter across 7 breakfasts during the week starting 2025-04-14: 5, 8, 5, 10, 7, 15, and 10 units respectively. The total weekly consumption is 60 units (5+8+5+10+7+15+10=60), which exceeds the allowed limit of less than 50 units. Therefore, one violation occurred.",
+    "patient-explanation": "This week, you consumed 60 units of butter, which is more than your recommended weekly limit of less than 50 units. To stay within your guidelines, please try to reduce your butter intake in the coming weeks.",
+    "physician-explanation": "Patient consumed 60 units of FOOD-1900 (Butter) during the monitoring period from 2025-04-14 to 2025-04-20, violating Monitoring Rule 0005 which specifies a weekly limit of less than 50 units for this food item. The violation represents a 20% excess above the permitted threshold."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The total consumption of 'FOOD-1900' (Butter) by 'Patient4' during the week starting from '2025-04-14T00:00:00' is 60 grams. The monitoring rule ':Rule-0005' specifies that the total consumption should be less than 50 grams per week. Since 60 grams is greater than 50 grams, a violation has occurred.",
+    "patient-explanation": "You have consumed more butter than recommended in the last week. It is advised to reduce your butter intake.",
+    "physician-explanation": "Patient4 has exceeded the recommended weekly intake of butter (FOOD-1900) as per monitoring rule Rule-0005. The total consumption was 60 grams against the limit of 50 grams. This indicates a dietary violation that requires attention."
+}

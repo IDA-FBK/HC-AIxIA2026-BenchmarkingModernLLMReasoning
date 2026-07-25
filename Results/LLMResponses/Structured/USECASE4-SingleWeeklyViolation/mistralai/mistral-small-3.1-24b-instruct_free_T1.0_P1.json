@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Single instance of inaccurate rule value. Two violations detected.",
+    "patient-explanation": "Given the rule to monitor (ID: 0005) which specifies that the weekly consumption of **Burro** should be no more than 50g and observed that on April 17th and April 19th, the consumption of **Burro** was: 10g and 15g respectively (high), indicate that the above rule has been  violated during the said period. Bear in mind that it is only possible to create a violation if the high consumption period falls on the same meal days. However, the research interval lists the FOOD consumed by days respectively therefore, this is best summed (factual). ",
+    "physician-explanation": "Examining the rule with ID 0005, we established that according to the temporal data, this patien consumed more than the weekly threshold of 50g of **Burro**. This was observed on 17th April 2025 and 19th April 2025 with respective daily consumption values of 10g and 15g. This falls within the intervals set. Consequently, breaching the standard thus creating a violation during the examination period. Given the values above, no further actionable advice would be required. "
+}

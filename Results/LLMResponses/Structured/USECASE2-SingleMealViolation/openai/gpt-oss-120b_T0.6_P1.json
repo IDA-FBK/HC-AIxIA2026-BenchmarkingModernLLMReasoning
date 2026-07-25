@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The MonitoringRule :Rule-0002 specifies a maximum allowed value of 10 for the monitored entity fsfood:FOOD-1900 (Butter) with the operator 'Less' and applies to each Meal. During the Breakfast meal of Patient2, the consumed food instance :ConsumedFood-Breakfast-P2-1-FOOD-1900 reports an amountFood of 15. Since 15 is greater than the allowed maximum of 10, the condition defined by the rule is violated. Therefore, one violation is detected.",
+    "patient-explanation": "You have a rule that limits the amount of butter you can eat at a meal to 10 units. At breakfast you ate 15 units of butter, which exceeds the limit, so a violation was recorded.",
+    "physician-explanation": "MonitoringRule ID 0002 (operator Less, threshold 10) monitors the consumption of fsfood:FOOD-1900 (Butter) per Meal. Patient2's Breakfast record shows fsreci:amountFood = 15 for the consumed butter instance. The observed value exceeds the threshold, violating the rule. Hence, one violation is logged for Patient2 at 2025-03-31T09:14:32."
+}

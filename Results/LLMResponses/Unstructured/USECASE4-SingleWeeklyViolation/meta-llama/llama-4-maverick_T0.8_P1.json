@@ -1,0 +1,7 @@
+{
+    "decision": "The user has exceeded their daily butter intake",
+    "number-violations": 7,
+    "reasoning": "The user has consumed more than the recommended amount of butter",
+    "patient-explanation": "You have exceeded the recommended daily intake of butter by 0.5 grams",
+    "physician-explanation": "The patient has exceeded the recommended daily intake of butter by 0.5 grams"
+}

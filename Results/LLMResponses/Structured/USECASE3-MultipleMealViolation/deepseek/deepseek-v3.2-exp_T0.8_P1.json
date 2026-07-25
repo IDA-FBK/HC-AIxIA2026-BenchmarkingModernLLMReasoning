@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Rule-0003 monitors FOOD-1900 (Butter) with a limit of less than 10 grams per meal. The patient consumed 15 grams of butter during lunch, which violates the rule (15 > 10). Rule-0004 monitors FOOD-701337 (Durum Wheat Bread) with a limit of less than 0 grams per meal, meaning consumption should be zero. The patient consumed 20 grams of bread, which violates the rule (20 > 0). Both rules have timing set to 'Meal' and the lunch occurred within the temporal check period.",
+    "patient-explanation": "During your lunch today, you consumed 15 grams of butter and 20 grams of durum wheat bread. According to your dietary guidelines, you should have less than 10 grams of butter per meal and should avoid bread entirely. Both of these amounts exceeded your allowed limits for this meal.",
+    "physician-explanation": "Patient consumed 15g of butter (FOOD-1900) violating Rule-0003 (limit: <10g/meal) and 20g of durum wheat bread (FOOD-701337) violating Rule-0004 (limit: 0g/meal). Both violations occurred during the lunch meal at 2025-04-07T13:05:12. Given the patient's celiac disease and cardiovascular conditions, these violations represent significant dietary non-compliance requiring intervention."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Based on the encoded data, Patient3 consumed the meal :Lunch-P3-1 on 2025-04-07. There are two active monitoring rules with 'Meal' timing check properties. \n\n1. Rule-0003 monitors fsfood:FOOD-1900 (Butter) with an operator of 'Less' and a value of 10. The patient consumed 15 units of Butter (:ConsumedFood-Lunch-P3-1-FOOD-1900), which exceeds the limit of 10.\n\n2. Rule-0004 monitors fsfood:FOOD-701337 (Durum Wheat Bread) with an operator of 'Less' and a value of 0. The patient consumed 20 units of this bread (:ConsumedFood-Lunch-P3-1-FOOD-701337), violating the restriction of 0 (likely due to the Celiac diagnosis).",
+    "patient-explanation": "During your lunch on April 7th, you exceeded two dietary limits set for you. First, you had 15g of butter, but your meal limit is 10g. Second, you ate 20g of whole wheat bread, which you are supposed to avoid completely (0g) due to your health condition.",
+    "physician-explanation": "Patient3 triggered two alerts during the lunch recorded on 2025-04-07T13:05:12. \n1. Violation of Rule-0003: Intake of 'Butter' (FOOD-1900) was 15g, exceeding the set threshold of <10g per meal.\n2. Violation of Rule-0004: Intake of 'Durum Wheat Bread' (FOOD-701337) was 20g, violating the exclusion parameter (<0g) calculated for the patient's Celiac disease profile."
+}

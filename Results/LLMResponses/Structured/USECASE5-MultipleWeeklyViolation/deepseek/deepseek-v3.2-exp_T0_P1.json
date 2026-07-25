@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "Rule-0006 specifies that butter (FOOD-1900) consumption should be less than 30 units per week. During the week starting 2025-04-21, Patient5 consumed butter twice: 20 units on April 21 and 20 units on April 23, totaling 40 units. This exceeds the 30-unit limit. Rule-0007 specifies that white chocolate (FOOD-19014) consumption should be less than 30 units per week. Patient5 consumed 50 units on April 26, which also exceeds the limit. Therefore, both rules are violated, resulting in two violations.",
+    "patient-explanation": "This week, you had more butter and white chocolate than recommended. You had butter twice - 20 units each time - making a total of 40 units for the week, but the limit is 30 units. You also had 50 units of white chocolate, which is over the 30-unit weekly limit. Try to reduce these foods next week to stay within your health guidelines.",
+    "physician-explanation": "Patient5 has violated two weekly dietary monitoring rules. For FOOD-1900 (butter), the permitted weekly maximum is 30 units, but the patient consumed 40 units (20 units on 2025-04-21 and 20 units on 2025-04-23). For FOOD-19014 (white chocolate), the permitted weekly maximum is 30 units, but the patient consumed 50 units on 2025-04-26. Both violations occurred during the monitoring period from 2025-04-21 to 2025-04-27. Given the patient's cardiovascular and diabetes conditions, adherence to these nutritional limits is important for disease management."
+}

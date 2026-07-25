@@ -1,0 +1,7 @@
+{
+    "decision": "NO",
+    "number-violations": 0,
+    "patient-explanation": "The monitoring rule for your sliced whole‑wheat rye bread says the amount you eat at a meal should be **more than 100 g**. At lunch you ate **150 g**, which is above the limit, so the rule was satisfied and no problem was detected.",
+    "physician-explanation": "MonitoringRule :Rule‑0001 (ID 0001) is associated with Patient1, targets the food entity fsfood:FOOD‑19018 (Sliced Whole Wheat Rye Bread), expects a monitored value of 100 with the operator \"Greater\", and is scoped to the Meal temporal granularity. The recorded consumption (fsreci:amountFood = 150) for Lunch‑P1‑1 (timestamp 2025‑03‑24T12:16:33) exceeds the threshold, satisfying the rule condition (150 > 100). Consequently, the reasoning engine does not instantiate any fsuser:Violation for this event. No violation records are generated, and the patient remains compliant with this specific dietary constraint.",
+    "reasoning": "The rule requires the consumed quantity of the specified food per meal to be greater than 100 units. The patient’s recorded intake was 150 units, which meets the > 100 condition. Therefore, the rule is not violated, resulting in zero violations."
+}

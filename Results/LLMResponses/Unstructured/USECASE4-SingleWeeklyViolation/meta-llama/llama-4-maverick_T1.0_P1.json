@@ -1,0 +1,7 @@
+{
+    "decision": "The patient is doing well",
+    "number-violations": 1,
+    "reasoning": "some reason",
+    "patient-explanation": "The patient is doing okay",
+    "physician-explanation": "The patient is doing well"
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule Rule-0001 applies to Patient1, monitoring the consumption of fsfood:FOOD-19018 (Sliced Whole Wheat Rye Bread) with a threshold of 100 units per meal (fsguid:timing fstemp:Meal). The operator is 'Greater', indicating a violation if consumption exceeds 100. Patient1 consumed 150 units (fsreci:amountFood 150) of this food in lunch (:Lunch-P1-1) at 2025-03-24T12:16:33, which falls within the checked period (week start 2025-03-24T00:00:00 to check time 2025-03-24T12:16:33). Thus, 150 > 100 triggers exactly one violation. No other rules or consumptions are present.",
+    "patient-explanation": "You had lunch on March 24, 2025, at 12:16 and ate 150 portions of sliced whole wheat rye bread. However, your monitoring rule says you should not eat more than 100 portions of this bread in one meal. This exceeded the limit, so there is one violation.",
+    "physician-explanation": "A violation of MonitoringRule Rule-0001 (ID: 0001) occurred for Patient1 (age 61, diagnosis: Cardiovascular). The rule monitors fsfood:FOOD-19018 (Sliced Whole Wheat Rye Bread, fscore:Food) with threshold 100 (fsguid:hasMonitoredValue 100.0), operator 'Greater' (fsguid:hasOperator \"Greater\"), timing fstemp:Meal. Consumption: 150 (fsreci:amountFood 150.0) in fsuser:Lunch (:Lunch-P1-1) at 2025-03-24T12:16:33 (within week starting 2025-03-24T00:00:00). Actual quantity 150.0 > threshold 100.0, confirming one violation at meal-level temporal scope."
+}

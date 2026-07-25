@@ -1,0 +1,7 @@
+{
+    "decision": "NO",
+    "number-violations": 0,
+    "patient-explanation": "You consumed 150 grams of sliced whole wheat rye bread during lunch, which is more than the required 100 grams. This meets your dietary goal for this meal, so there's nothing to worry about.",
+    "physician-explanation": "Monitoring rule for Patient1 specifies a minimum consumption of 100g of sliced whole wheat rye bread per meal with operator 'Greater' (≥). Actual consumption of 150g exceeds this threshold. No violation detected as measured value (150g) falls within the acceptable range [100g, ∞).",
+    "reasoning": "The monitoring rule requires Patient1 to consume at least 100g of sliced whole wheat rye bread per meal. The user consumed 150g during lunch, which exceeds the minimum requirement. Since the operator is 'Greater' (interpreted as ≥), the measured value (150g) is within the valid range [100g, ∞). No violations occurred as the consumption meets or exceeds the minimum threshold."
+}

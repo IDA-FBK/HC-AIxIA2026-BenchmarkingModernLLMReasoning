@@ -1,0 +1,7 @@
+{
+    "decision": "NO",
+    "number-violations": 0,
+    "reasoning": "The user did not violate any of the monitoring rules. The consumed quantities of the monitored foods were within the specified limits.",
+    "patient-explanation": "You did not exceed the recommended limits for the foods you consumed during the past week. You consumed 20g of butter during breakfast on April 21st and April 23rd, and 50g of white chocolate during dinner on April 26th. The rules specify that you should consume less than 30g of these foods per week, and you stayed within these limits.",
+    "physician-explanation": "The patient did not violate any of the monitoring rules. The consumed quantities of the monitored foods were within the specified limits. The patient consumed 20g of butter during breakfast on April 21st and April 23rd, and 50g of white chocolate during dinner on April 26th. The rules specify that the patient should consume less than 30g of these foods per week, and the patient stayed within these limits."
+}

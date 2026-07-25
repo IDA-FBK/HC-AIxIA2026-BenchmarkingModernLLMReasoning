@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "Your monitoring rule for butter consumption shows that over this week, you ate a total of 60 grams of butter. The guideline recommends not exceeding 50 grams per week. Please try to reduce your butter intake to stay within this limit for better health, especially considering your cardiovascular condition.",
+    "physician-explanation": "The MonitoringRule :Rule-0005 specifies an operational threshold of 50 grams (fsguid:hasMonitoredValue) with operator 'Less' (fsguid:hasOperator), requiring the total weekly consumption of FOOD-1900 (Butter) to be less than 50 grams. Patient4 consumed 60 grams of Butter across the monitored week (2025-04-14 to 2025-04-20), exceeding the threshold. This violates the rule as the total intake (60g) is greater than the allowed limit (50g).",
+    "reasoning": "The monitoring rule :Rule-0005 applies to Patient4, monitoring the weekly consumption of FOOD-1900 (Butter) with a threshold of 50 grams and an operator 'Less' (meaning the consumption must be below 50 grams). The weekly data shows seven breakfasts with amounts of 5g, 8g, 5g, 10g, 7g, 15g, and 10g of Butter, totaling 60 grams. Since 60 grams exceeds the 50-gram threshold, one violation occurred. The rule's timing (fstemp:Week) confirms that the weekly check applies to the entire period from April 14 to April 20."
+}

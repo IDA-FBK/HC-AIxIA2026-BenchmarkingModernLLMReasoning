@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "A monitoring rule is defined for Patient2 to consume less than 10 grams of butter per meal. During breakfast on March 31, 2025, at 09:14:32, Patient2 consumed 15 grams of butter, which exceeds the allowed quantity. Therefore, a violation occurred.",
+    "patient-explanation": "You consumed 15 grams of butter during breakfast, which is more than the allowed 10 grams per meal. This is considered a dietary violation.",
+    "physician-explanation": "The patient consumed 15 grams of butter at breakfast on March 31, 2025, exceeding the monitoring rule limit of less than 10 grams per meal. This resulted in a violation due to the excessive intake of saturated fats, which is a concern for managing cardiovascular disease."
+}

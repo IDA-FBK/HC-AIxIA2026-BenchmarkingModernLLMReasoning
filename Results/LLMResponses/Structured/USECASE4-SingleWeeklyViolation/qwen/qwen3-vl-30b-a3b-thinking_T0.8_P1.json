@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "The monitoring rule for your butter consumption shows that the total amount of butter you consumed during this week (60 units) exceeded the recommended limit of 50 units. This means we need to pay closer attention to your butter intake to keep it within the healthy range.",
+    "physician-explanation": "Monitoring Rule 0005 specifies that the weekly consumption of butter (FOOD-1900) should be less than 50 units. The total consumption over the week starting 2025-04-14T00:00:00 and ending 2025-04-20T23:59:59 was 60 units (5+8+5+10+7+15+10), which violates the rule's condition of 'Less than 50' units.",
+    "reasoning": "The monitoring rule (Rule-0005) is defined with a target value of 50, operator 'Less', and timing as 'Week'. This means the total weekly consumption of butter (FOOD-1900) should be less than 50 units. The patient's weekly consumption for the period from 2025-04-14 to 2025-04-20 was calculated as follows: 5 + 8 + 5 + 10 + 7 + 15 + 10 = 60 units. Since 60 is greater than the allowed 50 units under the 'Less' operator rule, this constitutes one violation. The monitoring rule applies to the entire week and the data shows that the weekly consumption exceeds the specified threshold."
+}

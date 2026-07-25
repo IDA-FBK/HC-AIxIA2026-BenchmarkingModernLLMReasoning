@@ -1,0 +1,7 @@
+{
+    "decision": "temporal",
+    "number-violations": 2,
+    "reasoning": "The line between temporal and causal explanations can be blurred.",
+    "patient-explanation": "This is a simple explanation of the patient's condition.",
+    "physician-explanation": "This is a simple explanation of the patient's condition."
+}

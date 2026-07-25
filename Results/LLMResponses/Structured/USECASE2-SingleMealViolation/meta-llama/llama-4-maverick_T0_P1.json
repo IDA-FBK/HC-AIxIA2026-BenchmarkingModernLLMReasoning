@@ -1,0 +1,7 @@
+{
+    "decision": "assistant",
+    "number-violations": 1,
+    "reasoning": "The input is not valid.",
+    "patient-explanation": "hasValue 1",
+    "physician-explanation": "hasValue 1"
+}

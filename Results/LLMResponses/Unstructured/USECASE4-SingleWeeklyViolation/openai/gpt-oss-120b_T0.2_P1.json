@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule requires Patient4 to consume less than 50 grams of butter per week. The recorded butter consumption for the week of 2025-04-14 to 2025-04-20 is 5 + 8 + 5 + 10 + 7 + 15 + 10 = 60 grams. Since 60 grams exceeds the allowed maximum of 50 grams, the condition of the rule (operator 'Less') is not satisfied, resulting in a violation. Only one rule is applicable, so the total number of violations is 1.",
+    "patient-explanation": "During the past week you ate a total of 60 grams of butter. Your health plan says you should keep butter intake below 50 grams each week. Because you went over the limit, a dietary rule was broken. Try to use less butter in the coming weeks to stay within the recommended amount.",
+    "physician-explanation": "Patient4's weekly butter intake for the period 2025-04-14 to 2025-04-20 summed to 60 g, exceeding the prescribed threshold of < 50 g as defined by the monitoring rule (weekly frequency, operator 'Less'). This constitutes a single violation of the rule. No other monitoring rules were evaluated for this period. The breach indicates non‑compliance with the dietary restriction intended to manage the patient's cardiovascular condition."
+}

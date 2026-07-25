@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "Monitoring Rule :Rule-0001 applies to :Patient1 and monitors the consumption of entity fsfood:FOOD-19018 (Sliced Whole Wheat Rye Bread) with a timing scope of 'Meal'. The rule specifies a monitored value of 100 with a 'Greater' operator, indicating that consuming more than 100 units constitutes a violation. Data indicates that during the meal :Lunch-P1-1 (timestamp 2025-03-24T12:16:33), the patient consumed 150 units of this specific food (:ConsumedFood-Lunch-P1-1-FOOD-19018). Since 150 is greater than 100, a violation is detected.",
+    "patient-explanation": "During your lunch on March 24th, you consumed 150g of Sliced Whole Wheat Rye Bread. Your monitoring plan has a rule that limits this specific food to 100g per meal. Because you exceeded this limit by 50g, a violation was recorded. Please try to adjust your portion size for this bread in future meals.",
+    "physician-explanation": "A violation of Rule-0001 was detected for Patient1. The rule sets a threshold of 100 units per meal for fsfood:FOOD-19018 (Sliced Whole Wheat Rye Bread) with a 'Greater' operator. The patient's recorded intake during the lunch event (:Lunch-P1-1) was 150 units, exceeding the established limit."
+}

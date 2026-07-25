@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Two monitoring rules apply to Patient3 with timing 'Meal': Rule-0003 requires consumption of FOOD-1900 (Butter) to be less than 10 units per meal; Rule-0004 requires consumption of FOOD-701337 (Durum Wheat Bread) to be less than 0 units per meal. In Lunch-P3-1 at 2025-04-07T13:05:12 (within the week starting 2025-04-07T00:00:00), Patient3 consumed 15 units of FOOD-1900 (exceeds 10) and 20 units of FOOD-701337 (exceeds 0). Both rules violated at the meal level, confirmed at the temporal check time.",
+    "patient-explanation": "You had lunch today and ate 15g of butter and 20g of durum wheat bread. Your rules say: no more than 10g of butter per meal, and no durum wheat bread at all per meal (less than 0g means avoid it). You went over both limits, so there are 2 violations for this meal.",
+    "physician-explanation": "Patient3 violated two meal-level monitoring rules during Lunch-P3-1 (timestamp: 2025-04-07T13:05:12, within week starting 2025-04-07T00:00:00). Rule-0003 (ID:0003): monitoredEntity fsfood:FOOD-1900 (Butter, fscore:Food), operator 'Less', threshold 10; consumed amountFood=15 >10. Rule-0004 (ID:0004): monitoredEntity fsfood:FOOD-701337 (Durum Wheat Bread, fscore:Food), operator 'Less', threshold 0; consumed amountFood=20 >0. Total violations: 2. No aggregation required as timing=fstemp:Meal and check coincides with consumption event."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The user consumed 15g of FOOD-1900 (Butter) and 20g of FOOD-701337 (White Bread) during lunch on 2025-04-07T13:05:12. Rule-0003 monitors the consumption of FOOD-1900 and is violated because the consumed amount (15g) is not less than the monitored value (10g). Rule-0004 monitors the consumption of FOOD-701337 and is violated because the consumed amount (20g) is not less than the monitored value (0g).",
+    "patient-explanation": "You have violated two dietary rules during your lunch on April 7, 2025. You consumed more butter and white bread than recommended.",
+    "physician-explanation": "The patient violated two monitoring rules associated with their dietary plan. Specifically, the consumption of butter (FOOD-1900) exceeded the recommended amount of 10g, with an actual consumption of 15g. Additionally, the consumption of white bread (FOOD-701337) exceeded the recommended amount of 0g, with an actual consumption of 20g. These violations occurred during lunch on April 7, 2025, at 13:05:12."
+}

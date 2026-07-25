@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "patient-explanation": "Hi there! During the week from April 21 to April 27, you had more butter and white chocolate than the recommended amount. The guidelines say you should have less than 30 grams of butter per week, but you had 40 grams (20g on two different mornings). Similarly, you had 50 grams of white chocolate on one evening, which is more than the 30-gram limit. This means we need to adjust your intake to help manage your health better.",
+    "physician-explanation": "Patient5 violated two weekly monitoring rules: (1) Total butter consumption exceeded 30g (40g total), and (2) Total white chocolate consumption exceeded 30g (50g total). Both violations occurred within the specified week (2025-04-21 to 2025-04-27). The violations are classified as 'Greater' type violations per the rule definitions (monitored entity: 'Butter' and 'White Chocolate', threshold: 30g weekly).",
+    "reasoning": "The monitoring rules specify a weekly limit of <30g for both butter and white chocolate. Patient5 consumed 20g butter on April 21 and 20g on April 23 (total 40g), exceeding the 30g threshold. Additionally, 50g white chocolate was consumed on April 26, exceeding the 30g limit. Both violations occurred within the specified weekly timeframe (2025-04-21T00:00:00 to 2025-04-27T23:59:59), confirming two distinct violations."
+}

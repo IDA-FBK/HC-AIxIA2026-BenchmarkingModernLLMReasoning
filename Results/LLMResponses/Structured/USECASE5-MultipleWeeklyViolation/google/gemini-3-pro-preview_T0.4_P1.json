@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The user (Patient5) is monitored by two weekly rules. Rule-0006 sets a limit of less than 30g for Butter (FOOD-1900), and Rule-0007 sets a limit of less than 30g for White Chocolate (FOOD-19014). Within the specified week (2025-04-21 to 2025-04-27), the user consumed Butter twice (20g on April 21 + 20g on April 23 = 40g total) and White Chocolate once (50g on April 26). The total Butter consumption (40g) exceeds the 30g limit. The total White Chocolate consumption (50g) exceeds the 30g limit.",
+    "patient-explanation": "We reviewed your food diary for the week of April 21st and found that you exceeded the recommended limits for two specific foods. You consumed a total of 40g of Butter and 50g of White Chocolate, but the limit for each is set at 30g per week. To better manage your health, please try to reduce the amount of these foods in your diet.",
+    "physician-explanation": "Patient5 recorded dietary intake violations against two active monitoring rules during the week commencing 2025-04-21. 1) Violation of Rule-0006: Cumulative consumption of Butter (fsfood:FOOD-1900) reached 40g, exceeding the threshold of <30g. 2) Violation of Rule-0007: Consumption of White Chocolate (fsfood:FOOD-19014) reached 50g, exceeding the threshold of <30g. These excesses are clinically relevant given the patient's diagnosis of Cardiovascular Disease and Diabetes."
+}

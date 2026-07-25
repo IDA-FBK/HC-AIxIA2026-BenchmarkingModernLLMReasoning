@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule :Rule-0001 is defined for :Patient1 and checks if the amount of food fsfood:FOOD-19018 consumed at any meal exceeds 100 grams. The data shows that :Patient1 consumed 150 grams of fsfood:FOOD-19018 at :Lunch-P1-1, which occurred at 2025-03-24T12:16:33. This consumption exceeds the defined limit, thus triggering a violation.",
+    "patient-explanation": "You have exceeded the recommended intake of Sliced Whole Wheat Rye Bread at lunch on 2025-03-24. The recommended amount was 100 grams, but you consumed 150 grams.",
+    "physician-explanation": "Patient1 violated the monitoring rule :Rule-0001 by consuming 150 grams of fsfood:FOOD-19018 (Sliced Whole Wheat Rye Bread) at lunch on 2025-03-24T12:16:33, exceeding the allowed 100 grams. This violation is associated with the rule checking for excessive consumption of this specific food item at meal times."
+}

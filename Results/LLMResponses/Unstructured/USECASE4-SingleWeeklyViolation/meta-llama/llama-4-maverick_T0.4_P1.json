@@ -1,0 +1,7 @@
+{
+    "decision": "The patient is not compliant with the dietary recommendations.",
+    "number-violations": 7,
+    "reasoning": "The patient has not followed the dietary recommendations.",
+    "patient-explanation": "The patient has not been compliant with the dietary recommendations.",
+    "physician-explanation": "The patient has not been compliant with the dietary recommendations for various nutrients. The patient is advised to follow the recommended dietary guidelines to maintain a healthy diet."
+}

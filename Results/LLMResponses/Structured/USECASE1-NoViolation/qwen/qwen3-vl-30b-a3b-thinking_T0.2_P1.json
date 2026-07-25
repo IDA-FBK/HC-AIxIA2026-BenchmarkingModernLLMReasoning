@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "You consumed 150 grams of whole wheat rye bread during lunch, which exceeds the recommended limit of 100 grams for this meal. To stay within healthy guidelines, please reduce your portion size to 100 grams or less.",
+    "physician-explanation": "The monitoring rule (ID 0001) specifies a threshold of 100g for the food entity FOOD-19018 (Sliced Whole Wheat Rye Bread) with a 'Greater' operator. The patient consumed 150g during the meal, exceeding the threshold. This violates the rule as the monitored value (150g) is greater than the defined limit (100g).",
+    "reasoning": "The monitoring rule (Rule-0001) is configured to trigger a violation when the consumed amount of FOOD-19018 exceeds 100g (operator 'Greater'). The patient consumed 150g of this food during lunch (timestamp 2025-03-24T12:16:33), which is greater than the 100g threshold. Since the rule's timing is set to 'Meal' and the consumption occurred during the specified meal, the condition is met. Therefore, one violation occurred."
+}

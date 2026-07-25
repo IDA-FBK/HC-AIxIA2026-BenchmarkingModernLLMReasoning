@@ -1,0 +1,7 @@
+{
+    "decision": "NO",
+    "number-violations": 0,
+    "reasoning": "The user did not violate any monitoring rules.",
+    "patient-explanation": "You did not violate any monitoring rules this week.",
+    "physician-explanation": "The patient did not violate any monitoring rules during the specified week."
+}

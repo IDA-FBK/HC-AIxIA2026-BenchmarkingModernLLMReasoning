@@ -1,0 +1,7 @@
+{
+    "decision": "NO",
+    "number-violations": 0,
+    "reasoning": "The monitoring rule requires Patient1 to consume at least 100 grams of sliced whole wheat rye bread per meal. During the lunch meal on March 24, 2025, at 12:16:33, Patient1 consumed 150 grams of sliced whole wheat rye bread. Since 150 grams is greater than the required minimum of 100 grams, no violation occurred.",
+    "patient-explanation": "Good news! Your lunch on March 24 met the dietary requirement. You needed to eat at least 100 grams of whole wheat rye bread, and you actually had 150 grams, which is well above the minimum. Keep up this good eating habit to help manage your cardiovascular health.",
+    "physician-explanation": "Assessment of Patient1's lunch consumption on 2025-03-24T12:16:33 shows compliance with monitoring rule MR001. The rule mandates a minimum intake of 100 grams of sliced whole wheat rye bread per meal. The patient consumed 150 grams, which exceeds the threshold. No violation is recorded. The temporal check at meal time confirms adherence to the weekly monitoring schedule starting 2025-03-24T00:00:00."
+}

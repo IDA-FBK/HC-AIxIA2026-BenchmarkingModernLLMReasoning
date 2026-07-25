@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The user consumed 15g of 'Butter' (fsfood:FOOD-1900) for breakfast. The monitoring rule ':Rule-0002' states that the user should consume less than 10g of 'Butter' per meal. Since 15g is greater than 10g, a violation occurred.",
+    "patient-explanation": "You consumed more butter than recommended for your breakfast. The recommended amount is less than 10g, but you consumed 15g.",
+    "physician-explanation": "The patient violated the monitoring rule ':Rule-0002' by consuming 15g of 'Butter' (fsfood:FOOD-1900) for breakfast, exceeding the recommended amount of less than 10g per meal."
+}

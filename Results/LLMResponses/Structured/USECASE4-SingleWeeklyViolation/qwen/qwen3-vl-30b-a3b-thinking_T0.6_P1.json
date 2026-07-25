@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "Your weekly butter consumption was 60 grams, which is above the recommended limit of 50 grams. This means your intake exceeded the target for the week, so we need to adjust your diet to stay within the recommended guidelines.",
+    "physician-explanation": "Monitoring rule ID 0005 (targeting fsfood:FOOD-1900) was violated due to total weekly consumption of 60 grams exceeding the threshold of 50 grams with 'Less' operator. The rule requires consumption to be less than 50 grams, but actual consumption was 60 grams, triggering a violation. The violation occurred during the week starting 2025-04-14T00:00:00 and ending 2025-04-20T23:59:59.",
+    "reasoning": "The monitoring rule (ID 0005) specifies that the weekly consumption of FOOD-1900 (Butter) must be less than 50 units. Patient4 consumed 5g (P4-1), 8g (P4-2), 5g (P4-3), 10g (P4-4), 7g (P4-5), 15g (P4-6), and 10g (P4-7) over the week. Total consumption = 60g. Since 60g is not less than 50g (operator 'Less' requires strict inequality), the rule is violated. The violation occurs because the total weekly intake exceeds the threshold, triggering a single violation event."
+}

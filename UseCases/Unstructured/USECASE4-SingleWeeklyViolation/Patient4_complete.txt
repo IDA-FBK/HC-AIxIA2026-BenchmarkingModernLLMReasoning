@@ -1,0 +1,65 @@
+I will give you a description of the structure of a monitoring rule and violation along with data related to a specific user.
+
+I will provide you as input:
+- The description of the structure of a monitoring rule as a text.
+- The description of the structure of a violation as a text.
+- The data about the user and food consumed.
+- The timestamp at which week starts and the timestamp when the temporal check of monitoring rules takes place.
+
+After you have received the input, your task is:
+   1. Reasoning and Decide: Determine whether one or more violations occurred based on the provided data. Provide a binary YES/NO answer, report the total number of violations, and explain the reasoning behind your decision.
+   2. Generate Two Explanations:
+       - One detailed explanation for the user, using simple and comprehensible language.
+       - One detailed explanation for the physician, using precise and professional terminology.
+
+
+The textual description of the structure of a monitoring rule is:
+
+The concept of a Monitoring Rule enables the definition of rules that can be associated with a specific user or user profile.
+The concept of a Value Interval enables the definition of numerical intervals of the form [lowerBound, upperBound] that can be associated with an instance of the MonitoringRule concept.
+The concept of User is the root concept for the User branch. All sub-concepts represent a specific category of users, if necessary.
+Several properties are associated with the concept of a Monitoring Rule:
+- monitors: This object property has a value of the User. The property specifies the subject of a Monitoring Rule, linking a Monitoring Rule to a User.
+- hasMonitoredValueInterval: This object property has a value of the Value Interval. The property specifies the subject of a Monitoring Rule, linking a Monitoring Rule to a Value Interval.
+- has rule definition: This datatype property has a textual value. The property specifies the monitored value of a MonitoringValueInterval.
+Several annotation properties further describe the Monitoring Rule:
+- hasMonitoredValue: This annotation property has a value of type double and it specifies the monitored value of a MonitoringRule.
+- timing: This annotation property defines the frequency associated with a Monitoring Rule. The range is a union of Week, Day, and Meal items.
+- hasOperator: This annotation property has a textual value and it specifies the operator (e.g., “Greater”, “Less”) for a monitored value within a MonitoringRule.
+- hasRuleId: This annotation property has a textual value and it specifies the unique identifier for a MonitoringRule.
+- monitoredEntity: This annotation property identifies the entity being monitored by a Monitoring rule. The range is a union of various food-related items and activities, including the following: Beverages, Cereal And Grain Products, Culinary Herbs, Eggs, Fats And Oils, Fish And Seafood, Fruits, Meat, Milk And Dairy Products, Mushrooms, Nut Seed And Olives Products, Salt, Sausages And Cold Cuts, Spices, Sugar And Sweets, Vegetables And Legumes, Broth, Alcohol, Aminoacid, Carbs, Dietary Fiber, Lipid, Mineral, Protein, Vitamin.
+- monitoredEntityType: This annotation property specifies the type of entity being monitored by a MonitoringRule. The range is a union of Food and Nutrient items.
+
+
+The textual description of the structure of a violation is:
+
+The concept of a Violation represents violations associated with a specific user. Instances of the Violation concept can be the result of reasoning activities provided by third-party applications.
+The concept of a Violation Interval is used for defining tolerances associated with Violation instances. These tolerances can be used for computing the gravity of each violation.
+Several properties are associated with the concept of a Violation:
+- hasViolationOnMeal: This object property has a value of the Meal. The property specifies which Meal triggered the violation.
+- hasViolationOnRule: This object property has a value of the Monitoring Rule. The property specifies which rule is violated.
+- hasViolationUser: This object property has a value of the User. The property specifies which User the violation refers to.
+Several datatype properties further describe the Violation:
+   - hasViolationEndTime: This datatype property has a value of type dateTimeStamp. It specifies the time at which the violation ends.
+   - hasViolationEntity: This datatype property specifies the entity of the violation. The range is a union of various food-related items and activities, including the following: Beverages, Cereal And Grain Products, Culinary Herbs, Eggs, Fats And Oils, Fish And Seafood, Fruits, Meat, Milk And Dairy Products, Mushrooms, Nut Seed And Olives Products, Salt, Sausages And Cold Cuts, Spices, Sugar And Sweets, Vegetables And Legumes, Broth, Alcohol, Aminoacid, Carbs, Dietary Fiber, Lipid, Mineral, Protein, Vitamin.
+   - hasViolationEntityType: This datatype property specifies the entity type of the violation. The range is a union of Food and Nutrient items.
+   - hasViolationExpectedQuantity: This datatype property has a value of type double. It specifies the expected quantity of the violation.
+   - hasViolationHistory: This datatype property has a value of type integer. It specifies the history of the violation.
+   - hasViolationLevel: This datatype property has a value of type integer. It specifies the level of the violation. The domain of this property includes both Violation and Violation Interval.
+   - hasViolationPriority: This datatype property has a value of type integer. It specifies the priority of the violation.
+   - hasViolationQuantity: This datatype property has a value of type double. It specifies the quantity of the violation.
+   - hasViolationRuleId: This datatype property has a value of type integer. It specifies the id of the rule violated.
+   - hasViolationStartTime: This datatype property has a value of type dateTimeStamp. It specifies the time at which the violation started.
+   - hasViolationTiming: This datatype property specifies the timing of the violation. The range is a union of Week, Day, and Meal items.
+   - hasViolationValidityTimespan: This datatype property has a value of type dateTimeStamp. It specifies the timespan during which the violation is valid.
+
+
+The data about the user and the food consumed is:
+
+Patient4 is a 67-year-old individual diagnosed with a cardiovascular disease. Due to this condition, specific dietary monitoring rules are in place to help manage their health.
+One monitoring rule mandates that Patient4 must consume less than 50 grams of butter per week. This monitoring rule is part of a health monitoring guideline designed to manage their cardiovascular condition. Monitoring must occur on a weekly basis according to this rule.
+During the week from April 14 to April 20, 2025, Patient4 consumed the following amounts of butter during 7 breakfast instances: April 14, 2025, at 08:03:12: 5 grams; April 15, 2025, at 08:02:11: 8 grams; April 16, 2025, at 08:05:17: 5 grams; April 17, 2025, at 08:08:21: 10 grams; April 18, 2025, at 08:09:31: 7 grams; April 19, 2025, at 08:12:01: 15 grams; April 20, 2025, at 07:59:11: 10 grams.
+The nutritional profile of butter per 100 grams includes 758 kcal, 3171 kJ of total energy, 14.1 g of water content, 0.8 g of proteins (including 0.8 g of animal proteins), and 1.1 g of carbohydrates (including 1.1 g of soluble carbs). Butter also provides 83.4 g of fats (with 48.78 g saturated, 23.72 g monounsaturated, and 2.75 g polyunsaturated fats). Additionally, it contains various nutrients including alanine (2.9 mg), arginine (2.5 mg), aspartic acid (6.5 mg), beta-carotene (4,500 µg), butyric caproic caprylic capric acid (0.782 g), calcium (15.0 mg), chlorine (17.0 mg), cholesterol (250 mg), copper (0.05 mg), cystine (0.9 mg), glutamic acid (18.7 mg), glycine (1.7 mg), histidine (2.3 mg), iodine (38.0 µg), isoleucine (4.7 mg), lactose (1.1 g), lauric acid (239 mg), leucine (8.6 mg), linoleic acid (157 mg), linolenic acid (118 mg), lysine (6.6 mg), magnesium (2.0 mg), methionine (2.0 mg), myristic acid (831 mg), myristoleic acid (114 mg), oleic acid (2.068 g), palmitic acid (2.086 g), palmitoleic acid (190 mg), pantothenic acid (0.04 mg), phenylalanine (4.3 mg), phosphorus (16.0 mg), potassium (15.0 mg), proline (9.0 mg), retinol equivalent (8,060 µg), serine (4.9 mg), sodium (0.7 mg), stearic acid (940 mg), sulfur (8.0 mg), threonine (4.0 mg), tryptophan (1.2 mg), tyrosine (3.4 mg), valine (5.6 mg), vitamin A (731.0 µg), vitamin D (0.80 µg), vitamin E (2.00 mg), and zinc (0.60 mg).
+
+
+Week starts at 2025-04-14T00:00:00^^xsd:dateTime - Temporal check at: 2025-04-20T23:59:59^^xsd:dateTime

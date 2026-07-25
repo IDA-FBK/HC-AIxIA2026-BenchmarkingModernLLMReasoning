@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Two weekly monitoring rules were violated during the week from 2025-04-21T00:00:00 to 2025-04-27T23:59:59. Rule 1: Less than 30 grams of butter per week. Consumption: 20g on 2025-04-21 breakfast, 20g on 2025-04-23 breakfast, total 40g > 30g. Rule 2: Less than 30 grams of white chocolate per week. Consumption: 50g on 2025-04-26 dinner, total 50g > 30g. Each exceeds the upper bound, confirming two separate violations.",
+    "patient-explanation": "Hi Patient5, this week from April 21 to 27, you ate 40 grams of butter (20g on April 21 breakfast and 20g on April 23 breakfast), but your limit is less than 30 grams per week. You also ate 50 grams of white chocolate on April 26 dinner, which is over the 30-gram weekly limit. Please try to stay under these amounts next week to help manage your heart and diabetes.",
+    "physician-explanation": "For Patient5, temporal evaluation at 2025-04-27T23:59:59 for the weekly period commencing 2025-04-21T00:00:00 revealed two violations of Monitoring Rules (butter <30g/week; white chocolate <30g/week; timing: Week; monitoredEntityType: Food). Violation 1 (butter, rule ID unspecified but per description): Cumulative intake 40g (20g at 2025-04-21T09:02:14 breakfast; 20g at 2025-04-23T09:01:11 breakfast) exceeds upper bound [0,30)g. Violation 2 (white chocolate): 50g at 2025-04-26T21:03:12 dinner exceeds [0,30)g. No other consumptions reported. Recommend reinforcement of dietary adherence."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule (Rule-0005) specifies that the consumption of FOOD-1900 (Butter) should be Less than 50 units per week. The user consumed Butter over 7 breakfasts during the week starting 2025-04-14: 5 + 8 + 5 + 10 + 7 + 15 + 10 = 60 units total. Since 60 > 50, this constitutes a violation of the weekly limit.",
+    "patient-explanation": "During this past week, you consumed 60 units of butter across your breakfasts. Your health guidelines recommend keeping butter consumption below 50 units per week to support your cardiovascular health. We recommend reducing your butter intake in the coming weeks to stay within this limit.",
+    "physician-explanation": "Patient4 (age 67, cardiovascular disease) violated Monitoring Rule 0005, which limits FOOD-1900 (Butter) consumption to <50 units per week. Temporal analysis of breakfast meals from 2025-04-14 to 2025-04-20 shows cumulative consumption of 60 units, exceeding the threshold by 10 units. This represents one violation of the weekly dietary restriction for saturated fats."
+}

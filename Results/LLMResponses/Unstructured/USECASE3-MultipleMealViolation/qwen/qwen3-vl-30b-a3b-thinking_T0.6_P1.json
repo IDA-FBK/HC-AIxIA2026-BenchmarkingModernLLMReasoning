@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "patient-explanation": "Hello! Based on your dietary monitoring rules, you consumed 15 grams of butter during lunch today, which exceeds the allowed limit of 10 grams. Additionally, you ate 20 grams of durum wheat bread, which you should avoid completely due to your celiac disease condition. We recommend adjusting your meal to stay within these guidelines to help manage your health conditions.",
+    "physician-explanation": "Patient3 violated two monitoring rules during the 2025-04-07T13:05:12 temporal check: (1) Exceeded butter consumption threshold (15g > 10g limit) for Monitoring Rule ID [assigned ID], and (2) Consumed durum wheat bread (20g > 0g allowed) violating the complete avoidance requirement for celiac disease management. Both violations occurred during the meal event at 2025-04-07T13:05:12 with Violation Level 2 (moderate severity) based on quantity thresholds and clinical guidelines.",
+    "reasoning": "The monitoring rules specify two critical dietary constraints: (1) butter consumption must be <10g per meal, and (2) durum wheat bread must be completely avoided. During the meal event at 2025-04-07T13:05:12, Patient3 consumed 15g of butter (exceeding the 10g limit) and 20g of durum wheat bread (violating the complete avoidance requirement). Both violations occurred within the specified temporal window (week start: 2025-04-07T00:00:00, check time: 2025-04-07T13:05:12), resulting in two distinct violations based on the defined monitoring rule parameters."
+}

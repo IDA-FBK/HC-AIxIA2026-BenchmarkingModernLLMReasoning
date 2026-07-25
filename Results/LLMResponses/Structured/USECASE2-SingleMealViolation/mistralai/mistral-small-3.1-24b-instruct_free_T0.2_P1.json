@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The user consumed 15 units of the monitored food item during breakfast, which violates the rule that specifies the monitored value should be less than 10 units.",
+    "patient-explanation": "You have consumed 15 units of butter during breakfast, which exceeds the allowed limit of 10 units. This is a violation of your dietary monitoring rule.",
+    "physician-explanation": "The patient has consumed 15 units of butter during breakfast, which violates the monitoring rule that specifies the monitored value should be less than 10 units. This indicates a deviation from the prescribed dietary guidelines."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The user consumed 40 grams of butter against a limit of less than 30 grams per week and 50 grams of white chocolate against a limit of less than 30 grams per week.",
+    "patient-explanation": "You have exceeded the recommended weekly intake limits for butter and white chocolate. For butter, you consumed 40 grams, which is more than the 30 grams recommended. For white chocolate, you consumed 50 grams, again exceeding the 30 grams limit. These dietary limits are in place to help manage your health conditions, specifically cardiovascular disease and diabetes.",
+    "physician-explanation": "The patient has violated two monitoring rules related to dietary intake. Firstly, the consumption of butter exceeded the weekly limit of 30 grams, with a total intake of 40 grams during the week from April 21 to April 27, 2025. Secondly, the intake of white chocolate was 50 grams, surpassing the recommended limit of less than 30 grams per week. These violations are significant as they pertain to the management of the patient's cardiovascular disease and diabetes, conditions for which dietary monitoring is crucial."
+}

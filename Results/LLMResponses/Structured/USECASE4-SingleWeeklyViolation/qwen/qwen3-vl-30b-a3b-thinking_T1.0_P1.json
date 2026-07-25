@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "We noticed that you consumed more butter than the recommended amount for this week. Your total intake was 60 grams, but the limit for the week is set at 50 grams. Try to reduce your butter consumption in the coming days to stay within the safe range for your health.",
+    "physician-explanation": "Patient4 (Age: 67, Cardiovascular Disease) exceeded the weekly butter consumption limit for MonitoringRule-0005. Total weekly consumption of FOOD-1900 (Butter) was 60g, which exceeds the rule's threshold of 50g (operator: 'Less'). Violation timing corresponds to the entire week (2025-04-14 to 2025-04-20). The rule monitors total food consumption of Butter with a threshold of 50g, and the violation occurred due to exceeding this limit.",
+    "reasoning": "The monitoring rule Rule-0005 (ID: 0005) specifies a weekly limit of 50g for Butter (FOOD-1900) consumption with the operator 'Less' (i.e., the monitored value must be < 50). The user's total butter consumption across the 7-day period (April 14-20, 2025) is calculated as follows: 5g + 8g + 5g + 10g + 7g + 15g + 10g = 60g. Since 60g is not less than 50g, the rule condition is violated. The violation occurred over the Week timeframe, with the temporal check covering the entire period from 2025-04-14T00:00:00 to 2025-04-20T23:59:59. This represents a single violation event as defined by the rule structure and data."
+}

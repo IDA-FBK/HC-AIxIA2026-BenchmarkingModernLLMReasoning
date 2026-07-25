@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The user consumed 150 grams of 'Pane di Segale Integrale a Fette' (Sliced Whole Wheat Rye Bread), which exceeds the monitored value of 100 grams specified in the monitoring rule. Therefore, a violation occurred.",
+    "patient-explanation": "You have consumed more than the recommended amount of 'Pane di Segale Integrale a Fette' (Sliced Whole Wheat Rye Bread) during your lunch. The rule specifies that you should not consume more than 100 grams of this food item per meal. You consumed 150 grams, which exceeds the limit.",
+    "physician-explanation": "The patient has violated the monitoring rule for the food item 'Pane di Segale Integrale a Fette' (Sliced Whole Wheat Rye Bread). The rule specifies that the consumption should not exceed 100 grams per meal. However, the patient consumed 150 grams during lunch, which is above the specified threshold. This violation indicates non-compliance with the dietary guidelines set for the patient."
+}

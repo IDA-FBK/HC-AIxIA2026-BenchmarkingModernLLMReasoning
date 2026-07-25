@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The MonitoringRule Rule-0005 applies to Patient4, monitoring weekly consumption of fsfood:FOOD-1900 (Butter, fscore:Food) with operator 'Less' and threshold 50 (presumed grams). The week spans 2025-04-14T00:00:00 to 2025-04-20T23:59:59. Patient4 consumed Butter in 7 breakfasts: 5g (04-14), 8g (04-15), 5g (04-16), 10g (04-17), 7g (04-18), 15g (04-19), 10g (04-20), totaling 60g. Interpreting 'Less' as requiring total consumption < 50g per week (upper limit, consistent with cardiovascular disease context), 60 > 50 constitutes 1 violation.",
+    "patient-explanation": "Over the week from April 14 to April 20, you ate a total of 60 grams of butter (5g + 8g + 5g + 10g + 7g + 15g + 10g in your breakfasts). Your monitoring rule says you should eat less than 50 grams of butter per week. You went over this limit, so there is 1 violation.",
+    "physician-explanation": "MonitoringRule fsguid:0005 (Rule-0005) monitors Patient4 (67yo, cardiovascular disease) for fsfood:FOOD-1900 (Butter; fsfood:AnimalFats, high saturated lipids 4878/100g, cholesterol 250mg/100g) with fsguid:hasOperator 'Less', fsguid:hasMonitoredValue 50 (g), fsguid:timing fstemp:Week. Aggregated fstemp:Week consumption (2025-04-14T00:00:00 to 2025-04-20T23:59:59): Σ fsreci:amountFood across 7 fsuser:Breakfast instances = 60g (>50g threshold). Violation detected (n=1) as total exceeds upper limit."
+}

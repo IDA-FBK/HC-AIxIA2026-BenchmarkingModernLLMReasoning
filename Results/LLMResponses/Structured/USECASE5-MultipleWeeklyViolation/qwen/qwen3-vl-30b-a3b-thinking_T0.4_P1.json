@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "patient-explanation": "Your diet this week included more than the recommended amount of certain foods. Specifically, the butter you consumed in your breakfasts (totaling 40g) and the white chocolate you had for dinner (50g) exceeded the limits set by your doctor. These limits are important to help manage your health conditions like diabetes and heart disease.",
+    "physician-explanation": "Patient 5 consumed 40g of Butter (FOOD-1900) and 50g of White Chocolate (FOOD-19014) over the week. Both values exceed the threshold of 30g specified in Monitoring Rules 0006 and 0007 (operator 'Less'). Given the patient's diagnoses of Diabetes and Cardiovascular Disease, these violations indicate potential dietary non-compliance requiring clinical review.",
+    "reasoning": "The monitoring rules specify a weekly threshold of 30g for both Butter (FOOD-1900) and White Chocolate (FOOD-19014) with an operator 'Less' (meaning consumption must be below 30g). Patient 5 consumed 20g of Butter in two breakfasts (total 40g) and 50g of White Chocolate in one dinner. Both values exceed the 30g threshold. Since the rules are evaluated over the entire week (timing: Week), these constitute two separate violations."
+}

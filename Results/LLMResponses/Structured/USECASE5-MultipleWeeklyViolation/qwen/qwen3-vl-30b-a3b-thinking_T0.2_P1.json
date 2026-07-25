@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "You consumed 50 grams of White Chocolate during the week, which is more than the recommended 30 grams. Please try to limit your intake to 30 grams or less.",
+    "physician-explanation": "The monitoring rule for White Chocolate (FOOD-19014) with a threshold of 30 grams and operator 'Less' was violated as the consumed quantity (50 grams) exceeded the specified limit during the week.",
+    "reasoning": "The monitoring rules for Patient5 include two rules: Rule-0006 for Butter (FOOD-1900) and Rule-0007 for White Chocolate (FOOD-19014), both with a threshold of 30 grams and operator 'Less'. The week starts on 2025-04-21 and ends on 2025-04-27. Patient5 consumed 20 grams of Butter twice (on 2025-04-21 and 2025-04-23), which is below the threshold. However, the consumption of 50 grams of White Chocolate on 2025-04-26 exceeds the 30-gram threshold, triggering a violation for Rule-0007. Therefore, one violation occurred."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The user consumed food that violates two monitoring rules. The amount of 'Butter' (FOOD-1900) consumed was 15 grams, which is greater than the allowed amount of 10 grams as per Rule-0003. The amount of 'White Bread' (FOOD-701337) consumed was 20 grams, which is greater than the allowed amount of 0 grams as per Rule-0004.",
+    "patient-explanation": "You have consumed food that does not follow your dietary guidelines. Specifically, you ate more butter and white bread than recommended.",
+    "physician-explanation": "The patient has violated two dietary monitoring rules. Rule-0003 was violated by consuming more than 10 grams of butter, with an actual consumption of 15 grams. Rule-0004 was violated by consuming more than 0 grams of white bread, with an actual consumption of 20 grams. These violations occurred during the meal at 2025-04-07T13:05:12."
+}

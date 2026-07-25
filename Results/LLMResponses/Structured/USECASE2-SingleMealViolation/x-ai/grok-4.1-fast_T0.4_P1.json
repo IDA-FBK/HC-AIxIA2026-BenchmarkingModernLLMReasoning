@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule Rule-0002 applies to Patient2, monitoring the consumption of fsfood:FOOD-1900 (Butter) at the meal level (fstemp:Meal). The rule specifies a monitored value of 10 with operator 'Less', interpreted as the consumed amount per meal should be less than 10 units. In the breakfast meal (Breakfast-P2-1) at 2025-03-31T09:14:32, Patient2 consumed 15 units of FOOD-1900, which exceeds the threshold (15 > 10). The temporal check at 2025-03-31T09:14:32 falls within the relevant meal period starting from the week beginning 2025-03-31T00:00:00. No other rules or consumptions indicate additional violations. Thus, one violation occurred.",
+    "patient-explanation": "Hi Patient2, you have a rule to limit butter (FOOD-1900) to less than 10 units per meal. In your breakfast on March 31, 2025, you ate 15 units, which is more than allowed. This is one violation. Try to stick to smaller portions next time!",
+    "physician-explanation": "For Patient2 (age 63, cardiovascular diagnosis), MonitoringRule-0002 (ID: 0002) monitors fsfood:FOOD-1900 (Butter, fscore:Food) with threshold 10 (operator: 'Less') at fstemp:Meal granularity. Consumption in fsuser:Breakfast-P2-1 (timestamp: 2025-03-31T09:14:32) recorded fsreci:amountFood 15, breaching the upper limit (15 > 10). Evaluation at 2025-03-31T09:14:32 relative to week start 2025-03-31T00:00:00 confirms a single violation instance. No additional breaches detected in provided data."
+}

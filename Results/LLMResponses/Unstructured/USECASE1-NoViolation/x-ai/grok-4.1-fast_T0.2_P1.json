@@ -1,0 +1,7 @@
+{
+    "decision": "NO",
+    "number-violations": 0,
+    "reasoning": "The monitoring rule requires Patient1 to consume at least 100 grams of sliced whole wheat rye bread per meal (timing: Meal). During lunch on 2025-03-24 at 12:16:33 (within the week starting 2025-03-24T00:00:00), the patient consumed 150 grams, which exceeds the minimum threshold (>=100g). No other meals or consumptions are reported that could trigger a violation. The monitored entity is sliced whole wheat rye bread (Cereal And Grain Products, Food type), and the actual quantity satisfies the rule's lower bound. Thus, no violations occurred.",
+    "patient-explanation": "Hi Patient1! Your rule is to eat at least 100 grams of sliced whole wheat rye bread at each meal to help with your heart health. At lunch today, you ate 150 grams, which is more than enough—great job! No issues here.",
+    "physician-explanation": "No violations detected for Patient1 (61-year-old with cardiovascular disease). The sole monitoring rule (hasRuleId implied unique; monitors: Patient1; hasMonitoredValueInterval: [100g, ∞); hasOperator: GreaterOrEqual; monitoredEntity: Sliced whole wheat rye bread [Cereal And Grain Products]; monitoredEntityType: Food; timing: Meal) was satisfied during the lunch meal on 2025-03-24T12:16:33 (temporal check within week starting 2025-03-24T00:00:00). Consumed quantity: 150g (hasMonitoredValue: 150g) ≥ expected minimum (100g). No additional meals or data indicate non-compliance."
+}

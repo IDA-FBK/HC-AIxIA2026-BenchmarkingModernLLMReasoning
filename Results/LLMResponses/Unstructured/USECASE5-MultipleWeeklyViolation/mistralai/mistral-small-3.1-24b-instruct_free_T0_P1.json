@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Patient5 consumed 40 grams of butter and 50 grams of white chocolate in a week. The monitoring rules specify that Patient5 must consume less than 30 grams of butter and less than 30 grams of white chocolate per week. Therefore, there are 2 violations.",
+    "patient-explanation": "During the week from April 21 to April 27, 2025, you consumed 40 grams of butter and 50 grams of white chocolate. The dietary guidelines for managing your cardiovascular disease and diabetes specify that you should consume less than 30 grams of butter and less than 30 grams of white chocolate per week. Therefore, you have exceeded the recommended limits for both butter and white chocolate, resulting in 2 violations of your dietary monitoring rules.",
+    "physician-explanation": "During the week from April 21 to April 27, 2025, Patient5 consumed 40 grams of butter and 50 grams of white chocolate. The monitoring rules specify that Patient5 must consume less than 30 grams of butter and less than 30 grams of white chocolate per week. Therefore, there are 2 violations of the dietary monitoring rules. The violations are as follows: 1. Butter consumption exceeded the recommended limit of 30 grams per week by 10 grams. 2. White chocolate consumption exceeded the recommended limit of 30 grams per week by 20 grams. These violations indicate a need for further dietary counseling and monitoring to ensure adherence to the prescribed guidelines for managing cardiovascular disease and diabetes."
+}

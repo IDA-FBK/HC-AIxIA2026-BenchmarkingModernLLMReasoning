@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule :Rule-0005 checks if the total consumption of food 'FOOD-1900' (Butter) over a week is less than 50 grams. The patient :Patient4 consumed this food for breakfast every day from 2025-04-14 to 2025-04-20. The total consumption for the week is 5 + 8 + 5 + 10 + 7 + 15 + 10 = 60 grams, which exceeds the limit of 50 grams. Therefore, a violation occurred.",
+    "patient-explanation": "You consumed more butter than recommended this week. The guideline suggests consuming less than 50 grams of butter per week, but you consumed a total of 60 grams. Try to reduce your butter intake in the coming weeks.",
+    "physician-explanation": "Patient4 has violated the monitoring rule :Rule-0005 by consuming a total of 60 grams of 'FOOD-1900' (Butter) over the week starting from 2025-04-14 to 2025-04-20, exceeding the recommended weekly limit of 50 grams. The violation is related to the consumption of animal fats, specifically butter, which is associated with cardiovascular diseases. It is advisable to monitor the patient's dietary habits closely and provide guidance on reducing butter intake to adhere to the recommended guidelines."
+}

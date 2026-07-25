@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "patient-explanation": "Your lunch included 15g of butter and 20g of bread. The monitoring rules state you should consume less than 10g of butter and less than 0g of bread. Since you exceeded both limits, there are violations. Please check your portion sizes to stay within the recommended amounts.",
+    "physician-explanation": "Rule-0003 (MonitoringRule) specifies a threshold of 10g with operator 'Less' for fsfood:FOOD-1900 (Butter). Actual consumption (15g) exceeds this threshold. Rule-0004 specifies a threshold of 0g with operator 'Less' for fsfood:FOOD-701337 (White Bread). Actual consumption (20g) exceeds this threshold. Both rules are violated as the monitored values (15g and 20g) do not satisfy the 'Less than' condition.",
+    "reasoning": "The monitoring rules were evaluated against the user's meal data. Rule-0003 (Butter) requires consumption < 10g; actual consumption was 15g (violation). Rule-0004 (White Bread) requires consumption < 0g; actual consumption was 20g (violation). Both rules are violated since the monitored values exceed the specified thresholds. The temporal check occurs within the meal timing (lunch at 2025-04-07T13:05:12), confirming the violations are valid for the current monitoring period."
+}

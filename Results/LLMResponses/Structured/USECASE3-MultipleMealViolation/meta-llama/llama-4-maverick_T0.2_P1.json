@@ -1,0 +1,7 @@
+{
+    "decision": "it",
+    "number-violations": 0,
+    "reasoning": "https://www.w3.org/TR/rdf-schema#",
+    "patient-explanation": "https://www.w3.org/2001/XMLSchema#string",
+    "physician-explanation": "https://www.w3.org/2001/XMLSchema#string"
+}

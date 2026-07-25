@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "You consumed a total of 60 grams of butter this week, which is 10 grams over the recommended limit of 50 grams. To help manage your cardiovascular health, it's important to stay within this limit. Please try to reduce your butter intake in the coming week.",
+    "physician-explanation": "The patient's weekly butter consumption (60g) exceeded the monitoring rule threshold of <50g. This single violation occurred due to cumulative intake across 7 meals during the specified week (2025-04-14 to 2025-04-20). The violation is classified as a weekly monitoring event with a 10g excess. The rule (ID unspecified) targeting Fats And Oils (butter) under the cardiovascular management protocol was breached.",
+    "reasoning": "The monitoring rule specifies a weekly limit of <50g butter for Patient4. Summing the daily butter consumption (5+8+5+10+7+15+10) yields 60g total for the week. Since 60g > 50g, this violates the rule. The violation is counted as a single instance because the rule applies to the entire weekly period (not per meal), and the temporal check occurs at the end of the week (2025-04-20T23:59:59). The violation is triggered by exceeding the upper bound of the value interval [0, 50) for butter consumption."
+}

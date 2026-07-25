@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule (Rule-0001) specifies that for each meal, the consumption of the food item 'Sliced Whole Wheat Rye Bread' (FOOD-19018) should not exceed 100 grams. The patient consumed 150 grams of this food during lunch on 2025-03-24T12:16:33. Since 150 grams is greater than 100 grams, this constitutes a violation of the rule. The temporal check confirms the meal occurred within the monitoring period.",
+    "patient-explanation": "During your lunch on March 24, 2025, you ate 150 grams of sliced whole wheat rye bread. Your dietary guidelines specify that you should not have more than 100 grams of this type of bread in a single meal. Since you exceeded this limit, a dietary violation has been recorded. Please try to follow the portion sizes recommended for your meals to stay within your dietary plan.",
+    "physician-explanation": "Patient consumed 150 grams of FOOD-19018 (Sliced Whole Wheat Rye Bread) during the lunch meal at 2025-03-24T12:16:33. Monitoring rule 0001 specifies a maximum of 100 grams per meal for this food item. The consumed quantity exceeds the threshold by 50 grams, constituting a violation. The violation timing is per meal, and the check was performed at the time of consumption, confirming the violation occurred within the valid monitoring period."
+}

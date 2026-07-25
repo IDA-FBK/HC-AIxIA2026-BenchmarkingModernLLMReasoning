@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The monitoring rules specify that Patient5 must consume less than 30 grams of butter per week and less than 30 grams of white chocolate per week. For butter, the total consumption during the week was 20 grams (April 21) + 20 grams (April 23) = 40 grams, which exceeds the 30-gram limit. For white chocolate, the consumption was 50 grams on April 26, which also exceeds the 30-gram limit. Thus, violations occurred for both rules.",
+    "patient-explanation": "During the week of April 21 to April 27, 2025, you consumed 40 grams of butter, which is over the recommended limit of 30 grams per week. You also consumed 50 grams of white chocolate, which is also above the 30-gram weekly limit. To better manage your cardiovascular and diabetic conditions, please try to reduce your intake of these foods as advised by your healthcare provider.",
+    "physician-explanation": "Patient5 violated two weekly dietary monitoring rules during the period from April 21 to April 27, 2025. For the butter consumption rule (limit: <30g/week), the patient consumed 40g total (20g on April 21 and 20g on April 23). For the white chocolate rule (limit: <30g/week), the patient consumed 50g on April 26. Both violations are significant given the patient's cardiovascular disease and diabetes, warranting dietary reinforcement."
+}

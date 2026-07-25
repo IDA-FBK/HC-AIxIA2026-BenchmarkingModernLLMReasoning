@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Two monitoring rules apply to Patient3 for the meal (Lunch-P3-1) at 2025-04-07T13:05:12, within the week starting 2025-04-07T00:00:00.\n- Rule-0003 (ID:0003): Monitors fsfood:FOOD-1900 (Butter) per meal, operator 'Less' with threshold 10. Consumed amount: 15 > 10, violation.\n- Rule-0004 (ID:0004): Monitors fsfood:FOOD-701337 (Durum Wheat Bread) per meal, operator 'Less' with threshold 0. Consumed amount: 20 > 0, violation.\nNo other rules or consumptions apply. Timing matches fstemp:Meal.",
+    "patient-explanation": "Ciao! Nel tuo pranzo di oggi (07/04/2025), hai consumato 15g di burro (FOOD-1900), ma la regola dice che per pasto non devi superare i 10g. Hai anche mangiato 20g di pane di grano duro (FOOD-701337), ma la regola vieta completamente questo alimento per pasto (massimo 0g). Quindi, ci sono 2 violazioni delle regole di monitoraggio.",
+    "physician-explanation": "Patient3 (age 66, diagnoses: Cardiovascular, Celiac) violated two meal-level MonitoringRules during Lunch-P3-1 (timestamp: 2025-04-07T13:05:12, within week starting 2025-04-07T00:00:00):\n1. Rule-0003 (fsfood:FOOD-1900/Butter, fscore:Food): Consumed 15g exceeding 'Less' threshold of 10g/meal.\n2. Rule-0004 (fsfood:FOOD-701337/Durum Wheat Bread, fscore:Food): Consumed 20g exceeding 'Less' threshold of 0g/meal (prohibited).\nNo ValueIntervals or aggregation required; direct per-meal checks. Recommend review for dietary adherence."
+}

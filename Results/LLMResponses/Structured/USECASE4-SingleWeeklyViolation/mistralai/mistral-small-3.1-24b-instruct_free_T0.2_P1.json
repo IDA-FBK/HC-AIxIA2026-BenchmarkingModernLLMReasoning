@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The monitoring rule specifies that the user should consume less than 50 units of the monitored food entity per week. The user consumed 57 units in total over the week, which exceeds the specified limit. This results in one violation. Additionally, the user consumed more than 50 units in a single day (15 units on 2025-04-19), resulting in a second violation.",
+    "patient-explanation": "You have exceeded the recommended weekly intake of butter. Over the past week, you consumed a total of 57 units, which is more than the allowed 50 units. Additionally, on April 19th, you consumed 15 units in a single day, which is also above the daily limit. Please adjust your intake to stay within the recommended limits.",
+    "physician-explanation": "The patient has violated the monitoring rule for butter consumption. Over the week from April 14th to April 20th, the patient consumed a total of 57 units, exceeding the specified limit of 50 units. Furthermore, on April 19th, the patient consumed 15 units in a single day, which is above the daily limit. This results in two violations: one for the weekly excess and another for the single-day excess."
+}

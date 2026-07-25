@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "Rule-0001 specifies that the monitored entity (fsfood:FOOD-19018) should not exceed 100 units during a meal. The patient consumed 150 units of fsfood:FOOD-19018 during lunch, as indicated by the timestamp '2025-03-24T12:16:33'. This consumption exceeds the specified limit, resulting in a violation of Rule-0001.",
+    "patient-explanation": "You have exceeded the allowed amount of a specific food item during your lunch. The rule states that you should not consume more than 100 units of this item per meal. However, you consumed 150 units. Please adjust your intake to stay within the recommended limits.",
+    "physician-explanation": "The patient has violated Rule-0001 by consuming 150 units of the monitored food entity (fsfood:FOOD-19018) during lunch on 2025-03-24 at 12:16:33. The rule specifies a maximum allowance of 100 units per meal. This violation indicates non-compliance with the prescribed dietary guidelines and requires further attention to ensure adherence to the recommended dietary intake."
+}

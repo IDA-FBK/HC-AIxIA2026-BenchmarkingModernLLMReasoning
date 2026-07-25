@@ -1,0 +1,7 @@
+{
+    "decision": "The input provided is not a valid JSON object.",
+    "number-violations": 1,
+    "reasoning": "This is a test.",
+    "patient-explanation": "This is a test.",
+    "physician-explanation": "This is a test."
+}

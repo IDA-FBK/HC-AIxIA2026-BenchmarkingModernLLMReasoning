@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule Rule-0002 specifies that for Patient2, the consumption of Butter (FOOD-1900) should be less than 10 grams per meal. The consumed quantity for breakfast on 2025-03-31T09:14:32 was 15 grams. Since 15 is greater than 10, this constitutes a violation of the rule. The temporal check at 2025-03-31T09:14:32 falls within the same meal timing, confirming the violation.",
+    "patient-explanation": "During your breakfast today, you consumed 15 grams of butter. According to your dietary guidelines, you should have less than 10 grams of butter per meal. This means you exceeded the recommended amount by 5 grams. Please try to be mindful of butter portions in future meals to stay within your health plan.",
+    "physician-explanation": "Patient2 has a cardiovascular diagnosis with a monitoring rule (ID: 0002) restricting butter (FOOD-1900) intake to less than 10 grams per meal. The breakfast consumed at 2025-03-31T09:14:32 included 15 grams of butter, violating the rule. The violation is confirmed as the temporal check aligns with the meal timing. This excess saturated lipid intake may impact cardiovascular risk factors and should be addressed in dietary counseling."
+}

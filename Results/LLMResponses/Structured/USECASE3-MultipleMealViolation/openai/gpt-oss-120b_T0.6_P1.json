@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The temporal check (2025-04-07T13:05:12) falls within the Lunch meal of Patient3. Rule-0003 requires the amount of FOOD-1900 (Butter) consumed in a meal to be less than 10 units. The recorded amount for FOOD-1900 is 15, which violates the rule. Rule-0004 requires the amount of FOOD-701337 (White Bread) consumed in a meal to be less than 0 units. The recorded amount for FOOD-701337 is 20, which also violates the rule. Therefore, two distinct violations are detected.",
+    "patient-explanation": "During your lunch on April 7, you ate 15 units of butter and 20 units of white bread. Your health plan includes limits that say you should eat less than 10 units of butter and less than any amount of white bread in a single meal. Both amounts exceed those limits, so two violations occurred.",
+    "physician-explanation": "At the timestamp 2025-04-07T13:05:12, Patient3's Lunch meal was evaluated against two MonitoringRule instances. Rule-0003 (ID 0003) specifies a monitored value of 10 with operator 'Less' for the entity fsfood:FOOD-1900 (Butter) on a Meal timing. The recorded fsreci:amountFood is 15, which does not satisfy the condition amount < 10, resulting in a violation. Rule-0004 (ID 0004) specifies a monitored value of 0 with operator 'Less' for the entity fsfood:FOOD-701337 (White Bread) on a Meal timing. The recorded amount is 20, violating the condition amount < 0. Consequently, two violations are logged for Patient3."
+}

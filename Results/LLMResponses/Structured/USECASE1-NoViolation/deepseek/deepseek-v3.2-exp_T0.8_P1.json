@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule Rule-0001 specifies that for Patient1, the consumption of Special Bread (FOOD-19018) should not exceed 100 grams per meal. The patient consumed 150 grams of Special Bread during lunch on 2025-03-24T12:16:33, which is greater than the allowed 100 grams. This constitutes one violation of the rule.",
+    "patient-explanation": "During your lunch on March 24, 2025, you consumed 150 grams of special bread. According to your dietary guidelines, you should not exceed 100 grams of this type of bread per meal. Since you consumed 50 grams more than the recommended amount, this represents a violation of your meal plan.",
+    "physician-explanation": "Patient1 consumed 150 grams of FOOD-19018 (Special Bread) during the lunch meal at 2025-03-24T12:16:33. Monitoring Rule-0001 specifies a maximum allowable quantity of 100 grams per meal for this food item with a 'Greater' operator. The actual consumption exceeded the threshold by 50 grams, resulting in one dietary compliance violation for the specified timing period (Meal)."
+}

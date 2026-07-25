@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "You consumed 150 grams of whole wheat rye bread during lunch, which exceeds the daily limit of 100 grams set for your diet plan. To stay within the recommended guidelines, please limit your bread intake to 100 grams per meal.",
+    "physician-explanation": "The MonitoringRule (ID: 0001) for Patient1 specifies a threshold of 100g for the consumption of fsfood:FOOD-19018 (Sliced Whole Wheat Rye Bread) during meals. The actual consumption recorded was 150g, which exceeds the threshold value (100g) as defined by the 'Greater' operator. This violation occurred during the Meal timing window (2025-03-24T12:16:33), triggering a violation event.",
+    "reasoning": "The monitoring rule (Rule-0001) specifies that the monitored value (food consumption) must not exceed 100g for the entity FOOD-19018 (Sliced Whole Wheat Rye Bread) during meals. The patient consumed 150g of this food at 2025-03-24T12:16:33, which is within the meal time window and exceeds the 100g threshold. Since the rule's operator is 'Greater', this constitutes a violation. The violation is valid for the Meal timing context and the specific food entity."
+}

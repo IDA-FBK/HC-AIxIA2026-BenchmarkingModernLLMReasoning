@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule for Patient4 specifies a weekly consumption limit of less than 50 grams of butter. The total butter consumed during the monitored week (April 14 to April 20, 2025) was 60 grams (5 + 8 + 5 + 10 + 7 + 15 + 10). This exceeds the prescribed limit by 10 grams, resulting in one violation.",
+    "patient-explanation": "Hello Patient4, we've analyzed your food diary for the week of April 14-20. Your health plan limits butter consumption to less than 50 grams per week. During this week, you consumed 60 grams of butter in total, which exceeds your weekly allowance by 10 grams. We recommend being mindful of butter usage in your meals to stay within your recommended limits.",
+    "physician-explanation": "For patient Patient4 (67-year-old with cardiovascular disease), analysis of nutritional data shows a violation of monitoring rule MR-1 (weekly butter consumption <50g). Total butter consumption during the monitoring period (2025-04-14T00:00:00 to 2025-04-20T23:59:59) was 60g, exceeding the threshold by 10g. The violation occurred across 7 breakfast instances with daily consumption ranging from 5g to 15g. This represents a single violation event for the weekly monitoring period targeting the Fats And Oils food category."
+}

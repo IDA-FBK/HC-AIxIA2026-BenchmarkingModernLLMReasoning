@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Two monitoring rules were evaluated for Patient3's lunch meal. Rule-0003 monitors FOOD-1900 (Butter) with a limit of less than 10 grams per meal, but the patient consumed 15 grams. Rule-0004 monitors FOOD-701337 (Durum Wheat Bread) with a limit of less than 0 grams per meal (effectively prohibiting consumption), but the patient consumed 20 grams. Both rules have timing set to 'Meal' and the lunch timestamp falls within the monitoring period. Therefore, two violations occurred.",
+    "patient-explanation": "During your lunch on April 7, 2025, we noticed that your meal did not follow the dietary guidelines set for you. You consumed 15 grams of butter, but the limit is less than 10 grams per meal. Additionally, you consumed 20 grams of durum wheat bread, which should not be included in your meals. These are two separate violations of your dietary plan. Please try to follow the recommended limits for these foods in future meals.",
+    "physician-explanation": "Patient3 has two dietary violations from the lunch meal consumed on 2025-04-07T13:05:12. Monitoring Rule-0003 (Butter restriction: <10g/meal) was violated with 15g consumption. Monitoring Rule-0004 (Durum Wheat Bread restriction: <0g/meal, indicating complete avoidance) was violated with 20g consumption. Both rules apply at the meal level timing. The patient has cardiovascular and celiac disease diagnoses, making these violations clinically relevant for managing their conditions."
+}

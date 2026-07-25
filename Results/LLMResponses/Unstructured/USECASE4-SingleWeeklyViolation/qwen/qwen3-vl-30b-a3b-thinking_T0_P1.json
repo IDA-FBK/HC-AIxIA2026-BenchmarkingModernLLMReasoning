@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "You consumed 60 grams of butter during the week from April 14 to April 20, 2025. Your dietary plan requires you to consume less than 50 grams of butter per week. Since 60 grams exceeds this limit, there is a violation of your health monitoring rule.",
+    "physician-explanation": "The monitoring rule for Patient4 specifies a weekly butter intake limit of <50g (monitored entity: 'Fats And Oils', entity type: 'Food'). Total butter consumption from April 14-20, 2025 was 60g. This exceeds the upper bound of the value interval [0, 50], resulting in one violation. The violation is valid for the entire weekly period (2025-04-14T00:00:00 to 2025-04-20T23:59:59) and corresponds to Rule ID <placeholder>. The violation entity type is 'Food' with 'Fats And Oils' as the monitored entity.",
+    "reasoning": "The monitoring rule requires a weekly butter intake of less than 50g. The week starts on April 14 and ends on April 20, 2025. Summing the daily butter consumption (5g + 8g + 5g + 10g + 7g + 15g + 10g) results in a total of 60g. Since 60g exceeds the 50g weekly limit, one violation occurred. The violation is associated with the 'Fats And Oils' entity (a food item) and is valid for the entire week."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "Your dietary monitor showed that during breakfast on March 31st, you consumed 15 grams of butter. Since your healthcare team recommended limiting butter intake to less than 10 grams per meal to manage your cardiovascular condition, this exceeds the safe limit. Eating more than the recommended amount may impact your health goals, so we suggest reducing butter consumption at future meals.",
+    "physician-explanation": "Patient2 violated the Monitoring Rule [RuleId: unspecified] associated with 'Butter' (monitoredEntity: Fats And Oils, monitoredEntityType: Food) during Meal (Breakfast). The rule specifies a value interval with upperBound = 10g and operator 'Less'. Actual consumption = 15g exceeds the upperBound. Violation occurred at 2025-03-31T09:14:32, with hasViolationQuantity = 15.0 and hasViolationExpectedQuantity = 10.0. ViolationLevel and Priority remain unspecified per provided data.",
+    "reasoning": "The monitoring rule specifies that Patient2 must consume less than 10g of butter per meal. At 09:14:32 on March 31, 2025, during breakfast, Patient2 consumed 15g of butter. Since 15g exceeds the upper bound of 10g defined in the rule’s value interval, this constitutes a violation. The timing constraint (per meal) is met as the event occurred during a meal. The violation is detected within the specified temporal check window (start of week: 2025-03-31T00:00:00 to check time: 2025-03-31T09:14:32). No other rules or violations apply to this event."
+}

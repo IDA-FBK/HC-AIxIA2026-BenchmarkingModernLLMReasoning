@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule :Rule-0002 is defined for :Patient2 and checks if the amount of food fsfood:FOOD-1900 (Butter) consumed at any meal is less than 10 grams. On 2025-03-31T09:14:32, :Patient2 consumed 15 grams of fsfood:FOOD-1900 at breakfast, which violates the rule since 15 is not less than 10.",
+    "patient-explanation": "You consumed 15 grams of Butter for breakfast, which is more than the recommended amount of 10 grams.",
+    "physician-explanation": "The patient consumed 15 grams of Butter (fsfood:FOOD-1900) at breakfast on 2025-03-31T09:14:32, exceeding the recommended limit of 10 grams as per the monitoring rule :Rule-0002. This constitutes a violation of the dietary guideline."
+}

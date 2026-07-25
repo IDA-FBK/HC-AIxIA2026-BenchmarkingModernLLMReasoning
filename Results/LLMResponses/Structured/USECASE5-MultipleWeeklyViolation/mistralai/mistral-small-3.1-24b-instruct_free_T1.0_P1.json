@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 3,
+    "reasoning": "Based on the monitoring rules, the consumed quantities and rule definitions provided, violations were observed. Three instances of rule violations were noted as the quantities consumed did not meet the standards set by monitoring rules.",
+    "patient-explanation": "Dear Patient, three of the food consumption records indicate instances that did not meet the dietary standards listed for you as per the monitoring rules defined. On April 21st, April 23rd, and April 26th, food consumption quantities did not adhere to the specified limits. This information will be reviewed by a specialist.",
+    "physician-explanation": "After evaluating the dietary input against the monitoring rules defined there are three corresponding instances of noncompliance observed. For Patient 5 the quantities of butter and white chocolate consumed  "
+}

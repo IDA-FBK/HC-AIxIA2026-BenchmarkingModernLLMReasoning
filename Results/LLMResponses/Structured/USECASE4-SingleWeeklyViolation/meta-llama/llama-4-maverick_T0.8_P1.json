@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule :Rule-0005 checks if the total consumption of fsfood:FOOD-1900 (Butter) over a week is less than 50 grams. The patient :Patient4 consumed fsfood:FOOD-1900 on each day from 2025-04-14 to 2025-04-20 with the following amounts: 5g, 8g, 5g, 10g, 7g, 15g, and 10g respectively. The total consumption for the week is 5 + 8 + 5 + 10 + 7 + 15 + 10 = 60 grams, which exceeds the limit of 50 grams set by the rule.",
+    "patient-explanation": "You have consumed more butter than recommended over the past week. The total amount of butter you consumed is 60 grams, while the recommended limit is 50 grams. Try to reduce your butter intake in the following week.",
+    "physician-explanation": "Patient4 has violated the monitoring rule :Rule-0005 by consuming a total of 60 grams of butter (fsfood:FOOD-1900) over the week starting from 2025-04-14 to 2025-04-20, exceeding the prescribed limit of 50 grams. This indicates a deviation from the dietary guidelines provided."
+}

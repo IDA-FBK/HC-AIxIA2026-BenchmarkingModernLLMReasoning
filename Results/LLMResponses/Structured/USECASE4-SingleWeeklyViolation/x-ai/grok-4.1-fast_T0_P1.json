@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule Rule-0005 specifies that Patient4's weekly consumption of fsfood:FOOD-1900 (Butter) must be less than 50 units (operator: 'Less', monitoredValue: 50, timing: Week). The week spans from 2025-04-14T00:00:00 to 2025-04-20T23:59:59. Consumption records show: 5 (14th), 8 (15th), 5 (16th), 10 (17th), 7 (18th), 15 (19th), 10 (20th), totaling 60 units. Since 60 > 50, this violates the rule. No other rules or matching violations found.",
+    "patient-explanation": "Hi Patient4, this week from April 14 to 20, you consumed a total of 60 units of butter (FOOD-1900) across your breakfasts. Your monitoring rule says you should have less than 50 units per week. You've gone over the limit, so that's a violation. Try to keep your butter intake under 50 units next week!",
+    "physician-explanation": "For Patient4 (67 years old, diagnosed with Cardiovascular disease), MonitoringRule-0005 (ID: 0005) mandates weekly consumption of fsfood:FOOD-1900 (Butter, fscore:Food) < 50 units (fsguid:hasOperator 'Less', fsguid:hasMonitoredValue 50.0, fsguid:timing fstemp:Week). Aggregated fsreci:amountFood from fsuser:Breakfast instances (2025-04-14T08:03:12 to 2025-04-20T07:59:11): 5+8+5+10+7+15+10 = 60.0 units. This exceeds the threshold (60.0 ≮ 50.0), constituting one violation at temporal check 2025-04-20T23:59:59."
+}

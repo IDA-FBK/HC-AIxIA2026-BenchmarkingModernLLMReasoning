@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule for Patient2 specifies that butter intake must be less than 10 g per meal (operator: Less, threshold: 10 g). At breakfast on 2025-03-31, the recorded butter consumption was 15 g, which exceeds the allowed limit. Therefore, the condition of the rule is violated, resulting in one violation.",
+    "patient-explanation": "You have a rule that limits butter to less than 10 grams at each meal to help manage your heart condition. At breakfast you ate 15 grams of butter, which is above the allowed amount. This means a dietary rule was broken for this meal.",
+    "physician-explanation": "Patient2 is subject to a monitoring rule requiring butter consumption < 10 g per meal (operator: Less). The recorded intake at the breakfast meal (2025-03-31 09:14:32) was 15 g, exceeding the threshold. Consequently, a single violation is logged for the rule, indicating non‑compliance with the prescribed dietary restriction for cardiovascular risk management."
+}

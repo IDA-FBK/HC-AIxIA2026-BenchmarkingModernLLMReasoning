@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule (Rule-0002) specifies that the monitored entity FOOD-1900 (Butter) should be consumed in an amount Less than 10 grams per Meal. The patient consumed 15 grams of Butter during the breakfast meal at 2025-03-31T09:14:32. Since 15 is greater than 10, this constitutes a violation of the rule.",
+    "patient-explanation": "During your breakfast, you consumed 15 grams of butter. Your dietary guidelines specify that you should have less than 10 grams of butter per meal. Therefore, this meal exceeded your recommended limit for butter.",
+    "physician-explanation": "Patient consumed 15 grams of FOOD-1900 (Butter) during the breakfast meal (2025-03-31T09:14:32). This violates Monitoring Rule 0002, which specifies a maximum intake of less than 10 grams of this food item per meal. The violation is confirmed as the consumed quantity (15g) exceeds the permitted threshold (10g)."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule for Patient4 specifies a maximum weekly consumption of butter of less than 50 grams. The evaluation period covers the week starting 2025-04-14 and ending 2025-04-20. By aggregating the daily consumption values provided (5g + 8g + 5g + 10g + 7g + 15g + 10g), the total calculated intake is 60 grams. Since 60 grams is greater than the limit of 50 grams, the condition 'less than 50 grams' is false, resulting in one violation for this weekly period.",
+    "patient-explanation": "We reviewed your food log for the week of April 14th to April 20th, and it looks like you exceeded your recommended limit for butter. To help manage your heart condition, your goal is to eat less than 50 grams of butter per week. However, this week you consumed a total of 60 grams. We recommend trying to reduce the amount used at breakfast or swapping it for a heart-healthy alternative like olive oil.",
+    "physician-explanation": "Patient4 (67, CVD) has triggered a violation of the dietary monitoring rule regarding saturated fat intake (specifically butter). The rule stipulates a weekly threshold of < 50g. During the monitoring interval (2025-04-14 to 2025-04-20), the patient's cumulative consumption was recorded at 60g based on seven breakfast instances. This exceeds the prescribed limit by 10g (20% excess). Continued monitoring of lipid-dense food intake is advised."
+}

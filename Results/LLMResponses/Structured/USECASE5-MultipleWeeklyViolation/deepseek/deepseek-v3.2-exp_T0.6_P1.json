@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Two monitoring rules (Rule-0006 and Rule-0007) are defined for Patient5 with a weekly timing constraint requiring consumption to be less than 30 units. For FOOD-1900 (Butter), the patient consumed 20 units on 2025-04-21 and 20 units on 2025-04-23, totaling 40 units for the week, which exceeds the 30-unit limit. For FOOD-19014 (White Chocolate), the patient consumed 50 units on 2025-04-26, which also exceeds the 30-unit limit. Both violations occurred within the specified week from 2025-04-21 to 2025-04-27.",
+    "patient-explanation": "During this past week, you consumed more than the recommended amount of two specific foods. For butter, you had 40 units total (20 units on Monday and 20 units on Wednesday), but the guideline allows only 30 units per week. For white chocolate, you had 50 units on Saturday, which also exceeds the weekly limit of 30 units. Please try to reduce your intake of these foods to stay within the recommended limits for better health management.",
+    "physician-explanation": "Patient5 has two weekly monitoring rules (Rule-0006 and Rule-0007) limiting consumption of FOOD-1900 (Butter) and FOOD-19014 (White Chocolate) to less than 30 units per week. For the week starting 2025-04-21, total Butter consumption was 40 units (20 units on 2025-04-21 and 20 units on 2025-04-23), violating Rule-0006. White Chocolate consumption was 50 units on 2025-04-26, violating Rule-0007. Both violations are confirmed within the temporal check period ending 2025-04-27."
+}

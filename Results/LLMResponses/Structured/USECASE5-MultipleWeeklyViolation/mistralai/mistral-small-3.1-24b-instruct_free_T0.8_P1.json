@@ -1,0 +1,7 @@
+{
+    "decision": "Yes, a violation occurred.",
+    "number-violations": 1,
+    "reasoning": "The user consumed 50g of food-19014, which is more than the 30g that is allowed by rule-0007.",
+    "patient-explanation": "You violated rule 0007, you consumed more than 30g of food-19014 (White Chocolate) this week.",
+    "physician-explanation": "Patient 5 violated rule 0007. The patient consumed 50g of food-19014 (White Chocolate) this week. The rule specifies that the quantity consumed must be less than 30g, but the patient exceeded this limit."
+}

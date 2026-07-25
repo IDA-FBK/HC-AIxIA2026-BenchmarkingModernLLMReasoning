@@ -1,0 +1,7 @@
+{
+    "decision": "valid",
+    "number-violations": 1,
+    "reasoning": "The patient has a history of cardiovascular disease and has been advised to follow a low-sodium diet.",
+    "patient-explanation": "The patient has been diagnosed with a condition that requires a strict dietary regimen, including a low-sodium diet.",
+    "physician-explanation": "The patient's condition requires careful management of dietary intake to prevent complications."
+}

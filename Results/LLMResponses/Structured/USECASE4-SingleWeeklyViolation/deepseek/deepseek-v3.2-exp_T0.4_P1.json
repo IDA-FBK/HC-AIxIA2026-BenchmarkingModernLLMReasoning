@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule (Rule-0005) specifies that the consumption of FOOD-1900 (Butter) should be less than 50 grams per week. During the week starting from 2025-04-14 to 2025-04-20, the patient consumed butter across 7 breakfast meals with quantities: 5g, 8g, 5g, 10g, 7g, 15g, and 10g. The total weekly consumption is 60 grams (5 + 8 + 5 + 10 + 7 + 15 + 10 = 60), which exceeds the allowed limit of 50 grams. Therefore, one violation occurred.",
+    "patient-explanation": "This week, your total butter consumption was 60 grams, which is above your weekly limit of 50 grams. To stay within your guidelines, please try to reduce your butter intake in the coming weeks. Small adjustments, like using less butter on toast or choosing alternatives, can help you meet your goal.",
+    "physician-explanation": "Patient4, a 67-year-old with cardiovascular disease, violated monitoring rule 0005, which limits butter (FOOD-1900) consumption to less than 50 grams per week. During the monitoring period from 2025-04-14 to 2025-04-20, the patient consumed 60 grams of butter across seven breakfast meals, exceeding the threshold by 10 grams. This violation is significant due to the patient's cardiovascular condition, as high saturated fat intake from butter can exacerbate risks. Recommend reinforcing dietary education on fat limits."
+}

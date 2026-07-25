@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Patient3 consumed 15 grams of butter during lunch, exceeding the allowed limit of 10 grams. Additionally, Patient3 consumed 20 grams of durum wheat bread, which is completely prohibited. Therefore, two violations occurred.",
+    "patient-explanation": "During your lunch on April 7, 2025, you consumed 15 grams of butter, which exceeds the allowed limit of 10 grams per meal. Additionally, you consumed 20 grams of durum wheat bread, which is completely prohibited for you. These actions have resulted in two dietary violations. Please adhere to your dietary guidelines to manage your cardiovascular and celiac conditions effectively.",
+    "physician-explanation": "The patient, Patient3, consumed 15 grams of butter during lunch on April 7, 2025, at 13:05:12, exceeding the specified limit of 10 grams per meal. Furthermore, the patient ingested 20 grams of durum wheat bread, which is strictly prohibited due to their celiac disease. These actions constitute two distinct violations of the prescribed dietary monitoring rules. The patient must strictly adhere to the dietary guidelines to effectively manage their cardiovascular and celiac conditions."
+}

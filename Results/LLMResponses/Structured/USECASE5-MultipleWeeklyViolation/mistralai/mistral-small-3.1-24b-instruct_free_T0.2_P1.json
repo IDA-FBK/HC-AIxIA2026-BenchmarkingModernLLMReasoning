@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The user consumed 50 grams of white chocolate, which exceeds the monitored value of 30 grams for the week. This constitutes a violation of Rule-0007.",
+    "patient-explanation": "You have consumed 50 grams of white chocolate this week, which exceeds the recommended limit of 30 grams. This is a violation of your dietary guidelines.",
+    "physician-explanation": "The patient has consumed 50 grams of white chocolate this week, exceeding the monitored value of 30 grams as specified in Rule-0007. This constitutes a violation of the dietary guidelines."
+}

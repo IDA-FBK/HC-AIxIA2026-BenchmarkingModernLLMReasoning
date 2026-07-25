@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The monitoring rules :Rule-0003 and :Rule-0004 are applied to the user :Patient3. The rule :Rule-0003 checks if the amount of food 'FOOD-1900' (Butter) consumed is less than 10 grams at meal time. The user consumed 15 grams of 'FOOD-1900' during lunch, violating this rule. The rule :Rule-0004 checks if the amount of food 'FOOD-701337' (White Bread) consumed is less than 0 grams at meal time. The user consumed 20 grams of 'FOOD-701337' during lunch, violating this rule as well.",
+    "patient-explanation": "You have violated two dietary rules during your lunch on 2025-04-07T13:05:12. Firstly, you consumed more butter than the recommended amount. Secondly, you consumed white bread, which is not allowed according to your dietary plan.",
+    "physician-explanation": "The patient, :Patient3, has violated two monitoring rules during lunch on 2025-04-07T13:05:12. The rules violated are :Rule-0003 and :Rule-0004. :Rule-0003 was violated by consuming 15 grams of 'FOOD-1900' (Butter), exceeding the allowed amount of 10 grams. :Rule-0004 was violated by consuming 20 grams of 'FOOD-701337' (White Bread), whereas the allowed amount is less than 0 grams. These violations indicate that the patient did not adhere to the prescribed dietary guidelines."
+}

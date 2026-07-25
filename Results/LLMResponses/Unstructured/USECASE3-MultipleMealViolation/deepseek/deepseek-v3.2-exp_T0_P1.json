@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Two monitoring rules were evaluated for the lunch meal on April 7, 2025. Rule 1: Butter consumption must be less than 10 grams per meal. The patient consumed 15 grams, which exceeds the limit (15 > 10). Rule 2: Durum wheat bread must be completely avoided (0 grams allowed). The patient consumed 20 grams, which is a direct violation. Both rules specify monitoring at each meal, and the lunch meal triggered violations for both rules.",
+    "patient-explanation": "Based on your health guidelines, we noticed two issues with your lunch today. First, you had 15 grams of butter, but your limit is less than 10 grams per meal. Second, you had durum wheat bread, which you need to avoid completely due to your celiac disease. Please try to stay within these limits at each meal to manage your heart and celiac conditions effectively.",
+    "physician-explanation": "Patient3 incurred two violations during the lunch meal on 2025-04-07. Violation 1: Butter consumption was 15 grams, exceeding the monitoring rule threshold of <10 grams per meal (operator: Less). Violation 2: Durum wheat bread consumption was 20 grams, violating the rule requiring complete avoidance (0 grams). Both rules are configured with a 'Meal' timing frequency. The violations are relevant to the patient's cardiovascular and celiac disease management."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "Patient2 is subject to a Monitoring Rule designed for cardiovascular disease management which stipulates that the consumption of the entity 'Butter' must be less than 10 grams per meal (timing: Meal). On March 31, 2025, at 09:14:32 (during breakfast), the patient consumed 15 grams of butter. Comparing the hasViolationQuantity (15.0) against the hasRuleDefinition/hasMonitoredValue (< 10.0), the condition was not met. Therefore, one violation occurred.",
+    "patient-explanation": "During your breakfast on March 31, 2025, you consumed 15 grams of butter. Your personalized health plan includes a rule to limit butter intake to less than 10 grams per meal to help manage your heart health. Because you ate 5 grams more than the recommended limit, this has been noted as a dietary violation. Please try to measure a smaller portion of butter next time.",
+    "physician-explanation": "A violation was detected for Patient2 regarding the specific monitoring rule limiting 'Butter' intake to < 10g per meal. At 09:14:32 on 2025-03-31, the patient consumed 15g of butter, resulting in a deviation of +5g from the expected quantity. This event triggers a violation of the cardiovascular dietary restrictions associated with the patient's profile."
+}

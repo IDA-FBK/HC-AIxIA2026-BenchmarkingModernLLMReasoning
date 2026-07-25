@@ -1,0 +1,7 @@
+{
+    "decision": "appropriate",
+    "number-violations": 0,
+    "reasoning": "some specific reason",
+    "patient-explanation": "There are no detailed explanations for the patient's condition.",
+    "physician-explanation": "There is no detailed physician's explanation available for this case."
+}

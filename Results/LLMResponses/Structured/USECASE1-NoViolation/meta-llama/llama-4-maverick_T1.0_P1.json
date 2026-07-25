@@ -1,0 +1,7 @@
+{
+    "decision": "The provided JSON payload is not valid according to the schema.",
+    "number-violations": 1,
+    "reasoning": "The provided JSON payload is not valid according to the schema.",
+    "patient-explanation": "The patient has a fever.",
+    "physician-explanation": "This is an explanation of the violation."
+}

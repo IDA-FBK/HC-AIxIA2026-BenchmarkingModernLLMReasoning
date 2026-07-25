@@ -1,0 +1,3 @@
+usecase,model,temperature,top_p,output,predicted_violations,decision,decision_cleaned,status,annotation
+USECASE3-MultipleMealViolation,llama-4-maverick,0.2,1.0,"{'decision': 'it', 'number-violations': 0, 'reasoning': 'https://www.w3.org/TR/rdf-schema#', 'patient-explanation': 'https://www.w3.org/2001/XMLSchema#string', 'physician-explanation': 'https://www.w3.org/2001/XMLSchema#string'}",0.0,it,OTH,,OTH/0
+USECASE3-MultipleMealViolation,llama-4-maverick,0.0,1.0,"{'decision': 'dietary', 'number-violations': 0, 'reasoning': 'dietary', 'patient-explanation': 'dietary', 'physician-explanation': 'dietary'}",0.0,dietary,OTH,,OTH/0

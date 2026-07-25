@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "patient-explanation": "You consumed 40 grams of butter and 50 grams of white chocolate during the week. According to your dietary monitoring rules, you should consume less than 30 grams of each food per week. Since you exceeded the limit for both foods, this is considered a violation that needs attention.",
+    "physician-explanation": "The following violations were detected: 1) For MonitoringRule Rule-0006 (FOOD-1900), the total consumption during the week was 40g, which did not satisfy the 'Less than 30g' condition. 2) For MonitoringRule Rule-0007 (FOOD-19014), the total consumption was 50g, also failing the 'Less than 30g' condition. Both violations require clinical review given the patient's cardiovascular and diabetes conditions.",
+    "reasoning": "The monitoring rules specify that the consumed amount of each food must be less than 30g per week (operator: 'Less'). For Rule-0006, the user consumed 20g of FOOD-1900 in Breakfast-P5-1 and 20g in Breakfast-P5-3, totaling 40g. For Rule-0007, the user consumed 50g of FOOD-19014 in Dinner-P5-6. Since both totals (40g and 50g) exceed the 30g threshold, they violate the 'Less than 30g' condition, resulting in two violations."
+}

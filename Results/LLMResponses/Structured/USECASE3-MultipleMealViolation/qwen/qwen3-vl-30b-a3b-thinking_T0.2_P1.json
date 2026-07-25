@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "patient-explanation": "Your lunch included 15 grams of butter, which exceeds the limit of 10 grams set by your monitoring rule. Additionally, you consumed 20 grams of white bread, which violates the rule requiring less than 0 grams. Both instances are considered violations.",
+    "physician-explanation": "For Monitoring Rule ID 0003 (monitored entity FOOD-1900, Butter), the actual consumption of 15g exceeds the threshold of 10g with operator 'Less'. For Rule ID 0004 (monitored entity FOOD-701337, White Bread), the consumption of 20g violates the threshold of 0g with operator 'Less'. Both violations are confirmed within the meal context.",
+    "reasoning": "The monitoring rules specify that the consumed quantity must be less than the defined threshold. For Rule-0003, the threshold is 10g for Butter, but 15g was consumed. For Rule-0004, the threshold is 0g for White Bread, but 20g was consumed. Since both actual values exceed their respective thresholds under the 'Less' operator, two violations occurred."
+}

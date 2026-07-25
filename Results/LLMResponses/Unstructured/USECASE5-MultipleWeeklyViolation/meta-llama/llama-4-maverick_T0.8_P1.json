@@ -1,0 +1,7 @@
+{
+    "decision": "The patient has consumed excessive amounts of butter and sugar in the past week.",
+    "number-violations": 2,
+    "reasoning": "The patient has exceeded the recommended daily intake of saturated fats, sugar, and salt.",
+    "patient-explanation": "The patient has a history of cardiovascular disease and is at risk for further complications.",
+    "physician-explanation": "The patient should reduce their intake of saturated fats, sugar, and salt to minimize the risk of cardiovascular disease."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The total butter consumption for the week is 60 grams, which exceeds the allowed 50 grams. Therefore, a violation occurred.",
+    "patient-explanation": "You have consumed more than the recommended amount of butter this week. The allowed limit is 50 grams per week, but you consumed a total of 60 grams. Please try to reduce your butter intake to stay within the recommended limits.",
+    "physician-explanation": "Patient4 has exceeded the weekly butter consumption limit. The prescribed monitoring rule stipulates a weekly intake of less than 50 grams. During the week from April 14 to April 20, 2025, the patient consumed a total of 60 grams of butter. This violation indicates non-compliance with the dietary guidelines aimed at managing cardiovascular disease. The butter intake was recorded over seven breakfast instances: 5 grams on April 14, 8 grams on April 15, 5 grams on April 16, 10 grams on April 17, 7 grams on April 18, 15 grams on April 19, and 10 grams on April 20. The nutritional profile of butter includes high levels of fats, which are detrimental to cardiovascular health. The violation underscores the need for stricter adherence to dietary recommendations and further monitoring to prevent exacerbation of the cardiovascular condition."
+}

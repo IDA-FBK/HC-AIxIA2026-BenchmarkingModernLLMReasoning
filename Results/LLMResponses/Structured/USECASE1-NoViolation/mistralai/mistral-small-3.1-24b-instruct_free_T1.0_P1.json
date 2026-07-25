@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "Based on the provided data, there is a violation.",
+    "patient-explanation": "During this temporal check, the patient consumed a type of SpecialBread containg a single serving of:\n- Alanine_000\n- Alcohol_000\n- AnimalLipid_000\n- AnimalProtein_000\n- ArachidicAcid_000\n- ArachidonicAcid_000\n- ...\npassive instead of the 100 g upper limit.set by Rule-0001",
+    "physician-explanation": "At the temporal check, a violation of Rule-0001 occurred because :Patient1 consumed 150 g of \"Pigate di Segale Integrale a Fette\" also known as \"Sliced Whole Wheat Rye Bread\", attributed by Code 19018, along with having violating calories(\"366 g\") and violations of Nutrient such as :AnimalLipid_000, :AnimalProtein_000 and others \npassive instead of the 100 g upper limit."
+}

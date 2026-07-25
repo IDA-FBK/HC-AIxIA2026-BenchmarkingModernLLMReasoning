@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Based on the provided data, two monitoring rules associated with Patient3 were violated during the meal 'Lunch-P3-1'. \n\n1. Rule-0003 specifies that the consumption of 'Butter' (fsfood:FOOD-1900) must be 'Less' than 10. The patient consumed 15 units (defined in :ConsumedFood-Lunch-P3-1-FOOD-1900), which exceeds the limit.\n\n2. Rule-0004 specifies that the consumption of 'Durum Wheat Bread' (fsfood:FOOD-701337) must be 'Less' than 0 (implying a strict prohibition). The patient consumed 20 units (defined in :ConsumedFood-Lunch-P3-1-FOOD-701337), violating the restriction.",
+    "patient-explanation": "We noticed two issues with your recent lunch. First, you ate 15 units of Butter, but your plan limits you to less than 10 per meal. Second, you ate Durum Wheat Bread, which you are supposed to avoid completely (your limit is 0). Please be careful to check portion sizes and avoid restricted foods to stay healthy.",
+    "physician-explanation": "Patient3 generated two dietary violations during the meal recorded on 2025-04-07T13:05:12. \n\n1. Violation of Rule-0003 (Lipid/Caloric Control): The patient consumed 15g of Butter (FOOD-1900), exceeding the per-meal threshold of <10g.\n\n2. Violation of Rule-0004 (Allergen/Disease Management): The patient consumed 20g of Durum Wheat Bread (FOOD-701337). This violates the strict exclusion rule (<0g), which is critical given the patient's diagnosis of Celiac disease (DiseaseRelationPatient3-2)."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "A violation occurred because the amount of FOOD-1900 (Butter) consumed at lunch exceeded the monitored value specified in the rule with ID 0003.",
+    "patient-explanation": "You have violated one of the dietary rules set for you. Specifically, you consumed 15 grams of butter at lunch, which exceeds the allowed limit of 10 grams per meal. Please be mindful of this rule in the future to avoid any potential health issues.",
+    "physician-explanation": "A single violation occurred based on the provided data. The patient, identified as Patient3, consumed 15 grams of butter (FOOD-1900) during lunch on 2025-04-07. This consumption exceeds the specified monitoring threshold of 10 grams, as outlined in Monitoring Rule 0003. The violation is associated with the monitored entity, butter, and the monitored entity type, food. The patient's dietary history and specific monitoring rules should be reviewed to ensure compliance and prevent further violations."
+}

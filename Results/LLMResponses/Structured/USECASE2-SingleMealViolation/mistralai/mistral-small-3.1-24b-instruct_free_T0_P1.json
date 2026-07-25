@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The user consumed 15 units of FOOD-1900 (Butter) during breakfast, which exceeds the monitored value of 10 units specified in the monitoring rule. The rule specifies that the consumption should be less than 10 units per meal. Therefore, a violation occurred.",
+    "patient-explanation": "You have consumed more than the recommended amount of butter during your breakfast. The rule specifies that you should consume less than 10 units of butter per meal. You consumed 15 units, which is above the limit.",
+    "physician-explanation": "The patient has violated the monitoring rule for butter consumption. The rule specifies that the consumption of butter should be less than 10 units per meal. During the breakfast on 2025-03-31, the patient consumed 15 units of butter, which exceeds the specified limit. This violation indicates that the patient's butter intake during this meal was higher than recommended."
+}

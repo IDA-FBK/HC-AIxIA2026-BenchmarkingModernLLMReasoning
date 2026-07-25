@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The patient consumed food items that violated two monitoring rules within the specified week. The total amount of 'Butter' (FOOD-1900) consumed was 40 grams, exceeding the allowed limit of 30 grams for the week. Additionally, the patient consumed 50 grams of 'White Chocolate' (FOOD-19014), again exceeding the weekly limit of 30 grams.",
+    "patient-explanation": "You have exceeded the recommended intake for two food items this week. You consumed a total of 40 grams of butter against the recommended limit of 30 grams. Additionally, you consumed 50 grams of white chocolate, also exceeding the weekly limit of 30 grams. It is advisable to monitor your intake of these foods to maintain a balanced diet.",
+    "physician-explanation": "The patient has violated two dietary monitoring rules within the specified week. The total consumption of 'Butter' (FOOD-1900) was 40 grams, surpassing the prescribed weekly limit of 30 grams. Furthermore, the patient consumed 50 grams of 'White Chocolate' (FOOD-19014), exceeding the weekly limit of 30 grams. These violations indicate a need for dietary adjustment to adhere to the recommended nutritional guidelines."
+}

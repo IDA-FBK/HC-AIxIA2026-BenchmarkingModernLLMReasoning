@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "Rule-0001 monitors consumption of FOOD-19018 (Sliced Whole Wheat Rye Bread) per meal with an operator 'Greater' and monitored value of 100 grams. The patient consumed 150 grams of this food during lunch. Since 150 > 100, this constitutes a violation of the meal-level monitoring rule.",
+    "patient-explanation": "During your lunch, you consumed 150 grams of sliced whole wheat rye bread. Your dietary guidelines specify that you should not exceed 100 grams of this type of bread per meal. This exceeded the recommended amount by 50 grams. Please try to be mindful of portion sizes for this food in future meals.",
+    "physician-explanation": "Patient violated monitoring rule Rule-0001 during the lunch meal at 2025-03-24T12:16:33. The rule monitors FOOD-19018 (Sliced Whole Wheat Rye Bread) consumption per meal with a threshold of 100 grams using a Greater operator. The patient consumed 150 grams, exceeding the threshold by 50 grams. This represents one violation of the meal-level dietary restriction for this patient with cardiovascular disease."
+}

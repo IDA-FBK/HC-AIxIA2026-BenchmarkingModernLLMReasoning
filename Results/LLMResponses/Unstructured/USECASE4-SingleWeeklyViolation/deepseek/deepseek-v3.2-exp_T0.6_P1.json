@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule requires Patient4 to consume less than 50 grams of butter per week. The total butter consumption from April 14 to April 20, 2025, is calculated as follows: 5 + 8 + 5 + 10 + 7 + 15 + 10 = 60 grams. Since 60 grams exceeds the 50-gram limit, a violation has occurred.",
+    "patient-explanation": "This week, your total butter consumption was 60 grams. Your health guideline limits butter to less than 50 grams per week to help manage your cardiovascular condition. To stay within your limit, please try to reduce your butter intake in the coming weeks.",
+    "physician-explanation": "Patient4 exceeded the weekly butter consumption limit of 50 grams. Total intake for the monitoring period (2025-04-14 to 2025-04-20) was 60 grams, constituting a violation of the cardiovascular dietary management rule. The violation is attributed to the 'Fats And Oils' entity type with a weekly timing frequency."
+}

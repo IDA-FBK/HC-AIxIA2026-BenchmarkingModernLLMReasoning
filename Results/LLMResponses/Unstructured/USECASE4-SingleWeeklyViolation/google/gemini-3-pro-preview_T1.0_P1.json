@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule explicitly states that Patient4 must consume less than 50 grams of butter per week week due to cardiovascular disease. The data provided lists daily butter consumption for the week starting April 14, 2025, as follows: 5g, 8g, 5g, 10g, 7g, 15g, and 10g. Summing these values (5 + 8 + 5 + 10 + 7 + 15 + 10) results in a total cumulative consumption of 60 grams for the week. Since 60 grams is greater than the allowed threshold of 50 grams, a violation of the specific monitoring rule occurred.",
+    "patient-explanation": "During the week of April 14th, your total butter consumption reached 60 grams, which is above the recommended limit of 50 grams set for your heart health plan. You are 10 grams over the limit. Please try to keep an eye on portion sizes to help manage your cardiovascular condition.",
+    "physician-explanation": "Patient4 has triggered a Violation of the weekly dietary monitoring rule regarding saturated fat intake (specifically Butter). The established threshold is < 50g per week. Cumulative intake for the monitored period (2025-04-14 to 2025-04-20) was calculated at 60g, resulting in an excess of 10g (20% over the limit). This deviation underscores the need to reinforce dietary compliance for cardiovascular risk management."
+}

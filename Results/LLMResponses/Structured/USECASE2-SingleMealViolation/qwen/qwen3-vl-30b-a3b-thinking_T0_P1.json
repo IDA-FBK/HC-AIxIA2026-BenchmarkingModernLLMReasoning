@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "You consumed 15g of butter for breakfast, which exceeds the recommended limit of 10g. Please reduce the amount of butter you eat at breakfast to stay within the healthy guidelines.",
+    "physician-explanation": "Patient2 violated MonitoringRule-0002 (ID: 0002) which specifies a maximum allowable consumption of 10g of butter (fsfood:FOOD-1900) per meal with operator 'Less'. At 2025-03-31T09:14:32 (breakfast meal), the patient consumed 15g of butter, exceeding the threshold of 10g. This constitutes a violation of the monitoring rule as the actual value (15g) is greater than the defined limit (10g) under the 'Less' operator condition.",
+    "reasoning": "The monitoring rule specifies that the consumed amount of butter must be less than 10g per meal (fsguid:hasMonitoredValue = 10 and fsguid:hasOperator = 'Less'). The patient consumed 15g of butter during breakfast (fsuser:ConsumedFood.amountFood = 15), which exceeds this threshold. Since the rule is applied at the meal level (fsguid:timing = fstemp:Meal) and the consumption occurred within the week starting at 2025-03-31T00:00:00, the violation is valid. The actual value (15g) is greater than the allowed maximum (10g), triggering the violation."
+}

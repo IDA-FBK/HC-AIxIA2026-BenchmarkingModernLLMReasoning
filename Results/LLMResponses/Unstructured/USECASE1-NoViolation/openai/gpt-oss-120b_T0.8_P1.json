@@ -1,0 +1,7 @@
+{
+    "decision": "NO",
+    "number-violations": 0,
+    "reasoning": "The monitoring rule for Patient1 specifies a minimum intake of 100 g of sliced whole‑wheat rye bread per meal (operator “GreaterOrEqual”). During the lunch meal on 2025‑03‑24 the recorded consumption was 150 g, which exceeds the required minimum. Since the actual amount meets the rule’s lower‑bound condition, no rule violation is triggered.",
+    "patient-explanation": "You have a rule that says you should eat **at least 100 g** of sliced whole‑wheat rye bread at each meal. At lunch you ate **150 g**, which is more than the required amount. Because you met (and even exceeded) the rule, there is **no violation** to worry about.",
+    "physician-explanation": "The active MonitoringRule for Patient1 (Rule‑ID: [unspecified]) defines a lower‑bound interval of 100 g for the entity ‘sliced whole wheat rye bread’ with the operator ‘GreaterOrEqual’, applied at the Meal timing granularity. The recorded intake for the lunch meal on 2025‑03‑24 12:16:33 is 150 g, which satisfies the constraint (150 g ≥ 100 g). Consequently, the reasoning engine does not instantiate any Violation individuals linked to this rule, resulting in zero violations for the current temporal check."
+}

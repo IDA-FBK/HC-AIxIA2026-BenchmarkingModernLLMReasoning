@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule explicitly states that Patient2 must consume less than 10 grams of butter per meal ('Less than' operator with a limit of 10). The data indicates that during the breakfast meal on 2025-03-31 at 09:14:32, the patient consumed 15 grams of butter. Since 15 grams exceeds the limit of 10 grams, a single violation of the monitoring rule occurred.",
+    "patient-explanation": "We noticed that during your breakfast on March 31, you consumed 15 grams of butter. To help manage your heart health, your current plan recommends eating less than 10 grams of butter at any single meal. Since you had a bit more than the recommended amount, please try to reduce the portion size slightly next time.",
+    "physician-explanation": "A violation of the dietary monitoring rule 'Butter < 10g/meal' was detected for Patient2. On 2025-03-31T09:14:32 (breakfast meal), the patient recorded an intake of 15g of butter. This quantity exceeds the defined upper bound of the Value Interval (< 10g) by 5g. Consequently, a Violation instance has been generated associated with the patient's cardiovascular management profile."
+}

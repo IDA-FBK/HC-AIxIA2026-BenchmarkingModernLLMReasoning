@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The user (Patient4) is subject to Monitoring Rule 'Rule-0005', which specifies a weekly limit for the consumption of 'FOOD-1900' (Butter). The rule dictates that the value must be 'Less' than 50. The provided data lists 7 consumption events (Breakfasts) within the week of 2025-04-14 to 2025-04-20. The amounts consumed are 5, 8, 5, 10, 7, 15, and 10 respectively. Summing these values yields a total weekly consumption of 60. Since 60 is not less than 50, the condition is breached, resulting in 1 violation for the monitoring period.",
+    "patient-explanation": "We have reviewed your food log for the week of April 14th to April 20th. Your current health plan recommends keeping your weekly butter consumption below 50g. However, based on your breakfast logs this week, your total intake was 60g. To stay on track with your cardiovascular health goals, please try to reduce the amount of butter you use in your morning meals next week.",
+    "physician-explanation": "Patient4 violated Monitoring Rule #0005 regarding the weekly intake of FOOD-1900 (Butter). The rule sets a threshold of < 50g per week. During the monitoring period (2025-04-14 to 2025-04-20), the patient's cumulative consumption reached 60g, exceeding the limit by 10g. The intake was distributed consistently across daily breakfast meals."
+}

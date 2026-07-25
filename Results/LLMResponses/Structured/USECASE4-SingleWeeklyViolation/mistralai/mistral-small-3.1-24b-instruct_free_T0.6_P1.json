@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The patient consumed more than 50 grams of butter in two separate days within the specified week.",
+    "patient-explanation": "You have exceeded the recommended limit for butter consumption on two occasions this week. Specifically, you consumed 15 grams on April 19th and 10 grams on April 20th, both of which are above the 5 gram limit. Please be mindful of these limits to maintain your dietary goals.",
+    "physician-explanation": "The patient has violated the monitoring rule for butter consumption on two separate days within the specified week. The rule specifies that the amount of butter consumed should be less than 50 grams per week, with a daily limit of 5 grams. On April 19th, the patient consumed 15 grams, and on April 20th, the patient consumed 10 grams, both of which exceed the daily limit. This pattern indicates a need for dietary adjustment to comply with the prescribed guidelines."
+}

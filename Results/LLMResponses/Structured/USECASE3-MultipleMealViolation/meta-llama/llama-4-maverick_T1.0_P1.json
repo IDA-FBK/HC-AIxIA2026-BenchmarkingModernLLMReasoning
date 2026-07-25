@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2.0,
+    "reasoning": "The user consumed 15 grams of Butter (FOOD-1900) and 20 grams of White Bread (FOOD-701337) during lunch on 2025-04-07T13:05:12. The monitoring rule :Rule-0003 checks if the consumption of Butter is less than 10 grams per meal, and :Rule-0004 checks if the consumption of White Bread is less than 0 grams per meal. The consumption of Butter (15 grams) violates :Rule-0003 because it exceeds the limit of 10 grams. The consumption of White Bread (20 grams) violates :Rule-0004 because it exceeds the limit of 0 grams.",
+    "patient-explanation": "You have consumed more Butter and White Bread than recommended during your lunch on 2025-04-07. Specifically, you consumed 15 grams of Butter, exceeding the recommended limit of 10 grams, and 20 grams of White Bread, exceeding the recommended limit of 0 grams.",
+    "physician-explanation": "The patient consumed 15 grams of Butter (FOOD-1900) and 20 grams of White Bread (FOOD-701337) during lunch, violating two monitoring rules: :Rule-0003 (Butter consumption should be less than 10 grams per meal) and :Rule-0004 (White Bread consumption should be less than 0 grams per meal). This indicates that the patient exceeded the recommended intake limits for these food items."
+}

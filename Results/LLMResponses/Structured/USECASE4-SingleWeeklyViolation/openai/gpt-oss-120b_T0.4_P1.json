@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule (Rule‑0005) applies to Patient4 for the whole week (fstemp:Week). It requires that the total amount of the food entity FOOD‑1900 (Butter) consumed during the week be **Less** than the threshold value 50. The patient’s breakfast records for the week contain seven consumptions of FOOD‑1900 with amounts 5, 8, 5, 10, 7, 15 and 10 (units are the same as the rule’s unit). The sum of these amounts is 60, which is greater than the allowed maximum of 50. Therefore the condition of the rule is violated, generating a single violation for the week.",
+    "patient-explanation": "During the week of April 14 – April 20 you ate butter (the food identified as FOOD‑1905) at breakfast seven times. The amounts you ate add up to **60 units**, while your health plan says you should keep the weekly total **below 50 units**. Because the total is higher than the limit, the system has recorded a violation for that week.",
+    "physician-explanation": "Rule‑0005 (ID 0005) monitors Patient4 for weekly intake of the food entity fsfood:FOOD‑1900 (Butter). The rule specifies a threshold of 50 with the operator 'Less', meaning the cumulative weekly quantity must be < 50. Aggregating the fsreci:amountFood values from the seven Breakfast‑P4 records (5, 8, 5, 10, 7, 15, 10) yields a total of 60. Since 60 ≥ 50, the rule condition is violated, resulting in a single violation instance for the week (timing: fstemp:Week, start 2025‑04‑14T00:00:00, end 2025‑04‑20T23:59:59)."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "You had 15 grams of butter during breakfast today, which is more than the 10 grams allowed by your dietary plan. This exceeds the limit set by your heart health management program. To support your cardiovascular health, please reduce butter intake at meals to stay within the recommended amount.",
+    "physician-explanation": "The Monitoring Rule (ID: unspecified) with 'monitoredEntity' = 'Butter' and 'monitoredEntityType' = 'Food' specifies a value interval of [0, 10) grams per meal. Actual consumption of 15 grams during breakfast (timestamp 2025-03-31T09:14:32) violates the 'Less' operator constraint. Violation is confirmed for Meal timing with violation quantity = 15g exceeding expected maximum of 10g.",
+    "reasoning": "The monitoring rule specifies a maximum butter intake of 10 grams per meal. Patient2 consumed 15 grams during breakfast at 09:14:32, which exceeds the allowed limit. Since the rule applies to each meal (timing = 'Meal') and the temporal check occurred at the exact time of consumption, this constitutes a single violation. The violation quantity (15g) exceeds the upper bound (10g) of the value interval defined in the monitoring rule."
+}

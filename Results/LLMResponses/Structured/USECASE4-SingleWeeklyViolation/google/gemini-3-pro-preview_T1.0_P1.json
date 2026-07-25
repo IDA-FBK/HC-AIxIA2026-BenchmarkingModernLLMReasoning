@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "Monitoring Rule 0005 (Rule-0005) specifies that Patient4 must have a weekly consumption of 'fsfood:FOOD-1900' (Butter) of less than 50 units (hasOperator: 'Less', hasMonitoredValue: 50). The monitoring period is the week starting 2025-04-14. The patient's consumption records for this week are: April 14 (5), April 15 (8), April 16 (5), April 17 (10), April 18 (7), April 19 (15), and April 20 (10). Summing these values (5+8+5+10+7+15+10) results in a total consumption of 60. Since 60 is not less than 50, the threshold has been exceeded.",
+    "patient-explanation": "We reviewed your nutrition data for the week of April 14th to April 20th. Your health guidelines recommend keeping your weekly Butter intake below 50. Your total consumption for this week was 60, which is higher than the recommended limit. We suggest reducing portions of butter in upcoming meals to help better manage your health.",
+    "physician-explanation": "Patient4 triggered a violation of Rule-0005 regarding the consumption of fsfood:FOOD-1900 (Butter). The rule stipulates a weekly cumulative limit of < 50. The accumulated intake calculated from daily breakfast records between 2025-04-14 and 2025-04-20 totaled 60. This exceeds the established threshold, indicating non-compliance with the dietary restriction associated with the patient's cardiovascular profile."
+}

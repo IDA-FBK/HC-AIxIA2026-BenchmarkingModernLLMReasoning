@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Two monitoring rules apply to Patient3 for meals (fstemp:Meal). Rule-0003 requires consumption of fsfood:FOOD-1900 (Butter) to be less than 10 units per meal; patient consumed 15 units in Lunch-P3-1, violating the rule (15 > 10). Rule-0004 requires consumption of fsfood:FOOD-701337 (Durum Wheat Bread) to be less than 0 units per meal (i.e., none allowed); patient consumed 20 units, violating the rule (20 > 0). The consumption occurred at 2025-04-07T13:05:12, within the checked period starting from 2025-04-07T00:00:00, matching the meal timing.",
+    "patient-explanation": "You ate lunch today (April 7, 2025) with 15g of butter and 20g of durum wheat bread. Your rules say: no more than 10g of butter per meal, and no durum wheat bread at all per meal. You went over on both, so there are 2 violations. For your heart and celiac issues, try sticking to these limits.",
+    "physician-explanation": "Patient3 (age 66, diagnoses: Cardiovascular disease, Celiac disease) consumed in Lunch-P3-1 (2025-04-07T13:05:12): 15 units fsfood:FOOD-1900 (Butter, exceeds Rule-0003 threshold of <10 units/meal) and 20 units fsfood:FOOD-701337 (Durum Wheat Bread, exceeds Rule-0004 threshold of <0 units/meal, i.e., prohibited). Temporal scope: within week starting 2025-04-07T00:00:00, per-meal monitoring (fstemp:Meal). Two distinct violations confirmed; recommend reinforcing dietary adherence for cardiovascular risk mitigation and gluten avoidance."
+}

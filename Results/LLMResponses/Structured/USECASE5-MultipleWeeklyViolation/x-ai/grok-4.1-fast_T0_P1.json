@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "Two monitoring rules apply to Patient5 over the week starting 2025-04-21T00:00:00 to 2025-04-27T23:59:59. Rule-0006 monitors fsfood:FOOD-1900 (Butter) with operator 'Less' and threshold 30; total consumed: 20g (2025-04-21) + 20g (2025-04-23) = 40g > 30g, violation. Rule-0007 monitors fsfood:FOOD-19014 (White Chocolate) with operator 'Less' and threshold 30; total consumed: 50g (2025-04-26) > 30g, violation. Both within the weekly timing.",
+    "patient-explanation": "Ciao! Questa settimana (dal 21 al 27 aprile 2025) hai superato i limiti consigliati per due alimenti. Hai consumato 40g di burro (FOOD-1900), ma il limite è meno di 30g. Hai anche consumato 50g di cioccolato bianco (FOOD-19014), ma il limite è meno di 30g. Cerca di ridurre questi cibi per stare meglio!",
+    "physician-explanation": "Patient5 violated two weekly MonitoringRules (Rule-0006: fsfood:FOOD-1900, threshold <30g; Rule-0007: fsfood:FOOD-19014, threshold <30g) during 2025-04-21T00:00:00 to 2025-04-27T23:59:59. Consumption: FOOD-1900 totaled 40g (20g Breakfast-P5-1 on 2025-04-21T09:02:14; 20g Breakfast-P5-3 on 2025-04-23T09:01:11). FOOD-19014 totaled 50g (Dinner-P5-6 on 2025-04-26T21:03:12). Both exceed thresholds given 'Less' operator, indicating non-compliance with dietary restrictions for cardiovascular and diabetes conditions."
+}

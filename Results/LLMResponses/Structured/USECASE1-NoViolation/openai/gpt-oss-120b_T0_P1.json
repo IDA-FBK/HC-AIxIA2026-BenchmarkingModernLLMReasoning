@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "During lunch on 24 March 2025 you ate 150 g of the whole‑wheat rye bread (FOOD‑19018). Your monitoring rule says that for this specific food the allowed amount per meal is **100 g** or less. Because you ate **more** than the limit, the system records a violation for that meal.",
+    "physician-explanation": "The patient (Patient1, age 61, diagnosed with cardiovascular disease) is linked to MonitoringRule 0001, which monitors the food entity fsfood:FOOD‑19018 (Sliced Whole Wheat Rye Bread) at the *Meal* temporal granularity. The rule specifies a monitored value of **100** (units: grams) with the operator **Greater**. The patient’s lunch record (Lunch‑P1‑1) at timestamp 2025‑03‑24T12:16:33 includes a ConsumedFood instance referencing FOOD‑19018 with an amountFood of **150 g** (fsreci:amountFood 150). Since 150 g > 100 g, the condition “Greater than 100 g” is satisfied, triggering a violation. Consequently, a Violation instance should be created linking the patient, the rule (ID 0001), the offending meal, the entity FOOD‑19018, the observed quantity (150 g), the expected maximum (100 g), and the violation start/end times (both set to the meal timestamp for a point‑in‑time violation).",
+    "reasoning": "The rule’s operator ‘Greater’ indicates that a consumption amount exceeding the threshold (100 g) constitutes a breach. The patient’s recorded intake for the monitored food is 150 g, which surpasses the threshold, therefore a violation is detected."
+}

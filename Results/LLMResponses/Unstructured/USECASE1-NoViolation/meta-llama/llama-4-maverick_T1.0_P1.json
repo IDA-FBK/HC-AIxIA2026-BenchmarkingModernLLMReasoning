@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The user has not provided the necessary data to make a decision based on the available information. However, based on the data available up to this point, it appears that the user is not following the dietary guidelines as prescribed by the healthcare provider.",
+    "patient-explanation": "The patient is not consuming the recommended amount of whole wheat rye bread as per the dietary guidelines.",
+    "physician-explanation": "The patient is not adhering to the recommended dietary plan, which includes consuming whole wheat rye bread. The patient consumed only 150g of whole wheat rye bread against the recommended 200g."
+}

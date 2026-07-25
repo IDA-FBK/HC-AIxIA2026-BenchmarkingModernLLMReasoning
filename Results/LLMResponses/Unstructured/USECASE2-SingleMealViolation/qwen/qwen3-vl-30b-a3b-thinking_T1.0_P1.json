@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "patient-explanation": "We noticed that during your breakfast on March 31st, you consumed 15 grams of butter, which is more than the recommended limit of 10 grams per meal. This exceeds the daily limit intended to help manage your cardiovascular condition. To support your heart health, please stay under 10 grams of butter in each meal.",
+    "physician-explanation": "Violation detected in Monitoring Rule with ID associated with 'Butter' (monitored entity) and 'less than 10 grams' threshold (hasMonitoredValue=10.0). Patient2 consumed 15g of butter during breakfast, violating the 'Less' operator condition. Violation timestamp: 2025-03-31T09:14:32 (meal context). Rule timing is Meal-based, confirming violation applicability. This constitutes a single violation of the dietary monitoring protocol for cardiovascular management.",
+    "reasoning": "Based on the monitoring rule requiring less than 10 grams of butter per meal (hasMonitoredValue: 10.0, hasOperator: 'Less', timing: Meal), Patient2 consumed 15 grams of butter during breakfast (timestamp: 2025-03-31T09:14:32), exceeding the specified threshold. Since the rule applies per meal and the violation occurs within the meal window, this constitutes a single violation. The temporal check aligns with the start of the meal context (week starting at 2025-03-31T00:00:00), confirming the violation occurs within the valid time range."
+}

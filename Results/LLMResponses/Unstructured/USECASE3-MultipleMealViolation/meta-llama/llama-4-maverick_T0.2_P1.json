@@ -1,0 +1,7 @@
+{
+    "decision": "Approved",
+    "number-violations": 0,
+    "reasoning": "The request was approved as it met the required criteria.",
+    "patient-explanation": "The patient met the required criteria for approval.",
+    "physician-explanation": "The physician deemed the request to be in line with the treatment plan."
+}

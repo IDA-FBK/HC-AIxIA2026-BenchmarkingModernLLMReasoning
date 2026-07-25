@@ -1,0 +1,7 @@
+{
+    "decision": "NO",
+    "number-violations": 0,
+    "patient-explanation": "During the lunch you ate 150 g of the sliced whole‑wheat rye bread (FOOD‑19018). The monitoring rule for this food says the amount you should eat must be **greater than 100 g** for each meal. Because 150 g > 100 g, the rule is satisfied, so no violation has been recorded.",
+    "physician-explanation": "The active MonitoringRule (ID 0001) for Patient 1 specifies a monitored entity of type Food (FOOD‑19018) with a threshold value of 100 units (interpreted as grams) and an operator \"Greater\". The rule is scoped to the Meal temporal granularity. At the timestamp of the lunch event (2025‑03‑24T12:16:33), the patient’s consumed‑food record indicates an fsreci:amountFood of 150 g for FOOD‑19018. Since 150 g exceeds the required minimum of 100 g, the rule condition evaluates to true and therefore no Violation instance is generated. Consequently, the reasoning engine reports zero violations for the current temporal check.",
+    "reasoning": "The rule’s condition is amount > 100 g. The recorded consumption for the monitored food during the relevant meal is 150 g. The temporal context matches (rule timing = Meal; check performed at the same meal timestamp). Hence the condition holds and no violation is triggered."
+}

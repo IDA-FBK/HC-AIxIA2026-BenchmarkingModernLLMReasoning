@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "Patient5 has violated the rule for white chocolate consumption, as they consumed 50 grams in one week, exceeding the allowed 30 grams.",
+    "patient-explanation": "During the week from April 21 to April 27, 2025, you consumed 50 grams of white chocolate. This exceeds the recommended limit of 30 grams per week. However, your butter consumption was within the allowed limit of 30 grams per week, with a total of 40 grams consumed.",
+    "physician-explanation": "The patient has violated the monitoring rule regarding white chocolate consumption. The rule specifies that the patient must consume less than 30 grams of white chocolate per week. During the week from April 21 to April 27, 2025, the patient consumed 50 grams of white chocolate, which exceeds the allowed limit. However, the patient's butter consumption was within the allowed limit of 30 grams per week, with a total of 40 grams consumed."
+}

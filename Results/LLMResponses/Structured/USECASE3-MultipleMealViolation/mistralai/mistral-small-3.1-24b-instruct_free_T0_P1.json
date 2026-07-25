@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The user consumed 15 units of FOOD-1900 and 20 units of FOOD-701337 during lunch. Rule-0003 specifies that the consumption of FOOD-1900 should be less than 10 units. Rule-0004 specifies that the consumption of FOOD-701337 should be less than 0 units. Both rules were violated.",
+    "patient-explanation": "You have violated two dietary rules during your lunch on April 7, 2025. You consumed 15 units of butter, which exceeds the allowed limit of 10 units. Additionally, you consumed 20 units of durum wheat bread, which is not allowed at all. Please adhere to the prescribed dietary guidelines to maintain your health.",
+    "physician-explanation": "The patient has violated two monitoring rules during lunch on April 7, 2025. The consumption of FOOD-1900 (butter) was 15 units, exceeding the specified limit of less than 10 units. Furthermore, the consumption of FOOD-701337 (durum wheat bread) was 20 units, violating the rule that specifies consumption should be less than 0 units. These violations indicate non-compliance with the prescribed dietary guidelines, which may impact the patient's health management, particularly considering their diagnoses of cardiovascular disease and celiac disease."
+}

@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 2,
+    "reasoning": "The weekly monitoring period runs from 2025-04-21 to 2025-04-27. The rule for butter allows less than 30 grams per week, but the patient consumed 20 grams on April 21 and another 20 grams on April 23, totaling 40 grams, which exceeds the limit. The rule for white chocolate also allows less than 30 grams per week, but the patient consumed 50 grams on April 26, which exceeds the limit as well. Therefore, both rules were violated, resulting in two violations.",
+    "patient-explanation": "During the week of April 21 to April 27, you ate more butter and white chocolate than the limits set for you. You had 40 grams of butter (the limit is 30 grams) and 50 grams of white chocolate (the limit is 30 grams). Because both amounts are above the allowed limits, the system recorded two diet rule violations for that week.",
+    "physician-explanation": "In the monitoring interval (2025-04-21T00:00:00 to 2025-04-27T23:59:59), the patient exceeded two weekly dietary constraints. The butter consumption amounted to 40 g, surpassing the <30 g threshold, and the white chocolate consumption amounted to 50 g, also surpassing the <30 g threshold. Both violations meet the criteria for rule breach, yielding a total of two violations for the evaluated period."
+}

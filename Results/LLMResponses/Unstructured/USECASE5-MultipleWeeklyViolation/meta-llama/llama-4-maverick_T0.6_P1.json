@@ -1,0 +1,7 @@
+{
+    "decision": "valid",
+    "number-violations": 0,
+    "reasoning": "invalid input",
+    "patient-explanation": "The input is not valid.",
+    "physician-explanation": "The doctor's note."
+}

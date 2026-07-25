@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "Monitoring Rule :Rule-0002 applies to :Patient2 and restricts the consumption of the entity fsfood:FOOD-1900 (Butter) to a quantity 'Less' than 10 per meal (fstemp:Meal). The provided data indicates that during the meal :Breakfast-P2-1, occurring at 2025-03-31T09:14:32, the patient consumed :ConsumedFood-Breakfast-P2-1-FOOD-1900 with a recorded amount (fsreci:amountFood) of 15. Since 15 is greater than the threshold of 10, the condition 'Less than 10' is not met, resulting in a violation.",
+    "patient-explanation": "We noticed that during your breakfast on March 31st, you consumed 15g of Butter. Your current monitoring plan recommends keeping the portion of butter below 10g per meal. Please try to use a smaller amount in the future to stay within your guidelines.",
+    "physician-explanation": "A violation of Monitoring Rule 0002 was detected for Patient2. The rule imposes a limit of < 10 units for fsfood:FOOD-1900 (Butter) per meal. The patient recorded an intake of 15 units during the breakfast meal on 2025-03-31, exceeding the established threshold."
+}

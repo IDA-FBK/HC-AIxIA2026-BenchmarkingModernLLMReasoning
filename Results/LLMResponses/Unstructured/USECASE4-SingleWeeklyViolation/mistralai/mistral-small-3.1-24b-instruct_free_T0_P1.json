@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The total amount of butter consumed by Patient4 during the week from April 14 to April 20, 2025, is 60 grams. This exceeds the monitoring rule limit of 50 grams per week. Therefore, a violation has occurred.",
+    "patient-explanation": "During the week from April 14 to April 20, 2025, you consumed a total of 60 grams of butter. This amount exceeds the recommended limit of 50 grams per week for managing your cardiovascular condition. Therefore, a violation of your dietary monitoring rule has occurred. Please ensure that you adhere to the recommended limits to help manage your health effectively.",
+    "physician-explanation": "The patient, Patient4, consumed a total of 60 grams of butter during the week from April 14 to April 20, 2025. This amount exceeds the monitoring rule limit of 50 grams per week, which is part of the health monitoring guideline designed to manage their cardiovascular condition. Therefore, a violation has occurred. It is crucial to ensure that the patient adheres to the recommended dietary limits to effectively manage their health."
+}

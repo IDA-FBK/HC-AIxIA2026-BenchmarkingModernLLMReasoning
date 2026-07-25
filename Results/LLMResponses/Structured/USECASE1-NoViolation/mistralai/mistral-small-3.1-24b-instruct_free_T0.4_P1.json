@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule specifies that the monitored value should be less than 100. The consumed food has a monitored value of 150, which violates the rule.",
+    "patient-explanation": "Based on the monitoring rules, you should not consume more than 100 units of a specific food item per meal. However, during your lunch on March 24, 2025, you consumed 150 units of 'Sliced Whole Wheat Rye Bread'. This exceeds the allowed limit and constitutes a violation.",
+    "physician-explanation": "The monitoring rule for Patient1 specifies that the consumption of 'Sliced Whole Wheat Rye Bread' (FOOD-19018) should not exceed 100 units per meal. On March 24, 2025, at 12:16:33, Patient1 consumed 150 units of this food item during lunch, which violates the established rule. This constitutes one violation of the dietary guidelines."
+}

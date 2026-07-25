@@ -1,0 +1,7 @@
+{
+    "decision": "NO",
+    "number-violations": 0,
+    "reasoning": "The monitoring rule requires a minimum intake of 100 g of sliced whole‑wheat rye bread per meal. At the temporal check (2025‑03‑24 12:16:33) the patient recorded 150 g of that bread for lunch, which exceeds the required threshold. Since the actual quantity is greater than or equal to the lower bound defined in the rule, the condition \"Less than 100 g\" is not met, and therefore no violation is generated.",
+    "patient-explanation": "You have a rule that says you need to eat at least 100 g of sliced whole‑wheat rye bread at each meal. At lunch you ate 150 g, which is more than the required amount. Because you met (and even exceeded) the rule, no warning or violation was recorded.",
+    "physician-explanation": "Monitoring Rule: monitoredEntity = 'sliced whole wheat rye bread', monitoredEntityType = Food, hasOperator = 'GreaterOrEqual', hasMonitoredValue = 100 g, timing = Meal, monitors = Patient1. At the evaluation timestamp (2025‑03‑24T12:16:33) the logged intake for the relevant Meal instance is 150 g. The evaluated expression (150 g ≥ 100 g) evaluates to true, satisfying the rule. Consequently, the reasoning engine does not instantiate a Violation individual linked via hasViolationOnRule, hasViolationOnMeal, and hasViolationUser. No violation records exist for this check."
+}

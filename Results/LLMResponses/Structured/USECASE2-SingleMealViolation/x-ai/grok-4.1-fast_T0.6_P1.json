@@ -1,0 +1,7 @@
+{
+    "decision": "YES",
+    "number-violations": 1,
+    "reasoning": "The monitoring rule Rule-0002 applies to Patient2, monitoring consumption of fsfood:FOOD-1900 (Butter) per Meal. The threshold is 10 units, with operator 'Less', interpreted as violation if actual consumption > threshold (i.e., threshold < actual). In the Breakfast meal on 2025-03-31T09:14:32, Patient2 consumed 15 units of FOOD-1900, which exceeds the 10-unit threshold (15 > 10). The timing is fstemp:Meal, and the temporal check occurs at the consumption timestamp within the week starting 2025-03-31T00:00:00. No other consumptions or meals are recorded that affect this check. Thus, one violation occurred.",
+    "patient-explanation": "You had breakfast today and ate 15 grams of butter, but your rule says to keep it under 10 grams per meal because of your heart condition. This is over the limit, so it's a violation. Try to use less butter next time, maybe switch to lighter options.",
+    "physician-explanation": "Monitoring rule #0002 for Patient2 specifies an upper limit of 10 g of fsfood:FOOD-1900 (Butter, an AnimalFat) per meal (fstemp:Meal timing), with operator 'Less' indicating violation if consumption > 10 g. On 2025-03-31 at 09:14:32 (within week starting 2025-03-31T00:00:00), during breakfast (fsuser:Breakfast-P2-1), the patient consumed 15 g (fsreci:amountFood 15), breaching the threshold (15 > 10). This is the sole violation detected at the check time. Recommended intervention: reinforce lipid restriction guidelines for cardiovascular disease management."
+}
